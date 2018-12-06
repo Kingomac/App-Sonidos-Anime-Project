@@ -59,6 +59,36 @@ public class NativeShare : MonoBehaviour
                         break;
                 }
                 break;
+            case "BokuNoHero": switch (animenum)
+                {
+                    case 0: songlink = "https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/bokunohero/bakugou/Remix.mp3";
+                        break;
+                    case 1: StartCoroutine(GetRandomSongLink("https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/bokunohero/bakugou.txt"));
+                        break;
+                    case 2: StartCoroutine(GetRandomSongLink("https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/bokunohero/allmightsmash.txt"));
+                        break;
+                    case 3: StartCoroutine(GetRandomSongLink("https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/bokunohero/DekuSmash"));
+                        break;
+                    case 4: StartCoroutine(GetRandomSongLink("https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/bokunohero/Deku.txt"));
+                        break;
+                }
+                break;
+            case "Konosuba": switch (animenum)
+                {
+                    case 0: StartCoroutine(GetRandomSongLink("https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/konosuba.txt"));
+                        break;
+                    case 1: songlink = "https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/konosuba/jajajajaja.mp3";
+                        break;
+                }
+                break;
+            case "LoveLiveSunshine": switch (animenum)
+                {
+                    case 0: StartCoroutine(GetRandomSongLink("https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/llsunshine/ganbaruby.txt"));
+                        break;
+                    case 1: StartCoroutine(GetRandomSongLink("https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/llsunshine/yousoro.txt"));
+                        break;
+                }
+                break;
         }
     }
     public IEnumerator GetRandomSongLink(string linklist)

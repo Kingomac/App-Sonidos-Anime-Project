@@ -479,6 +479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audios: []
+  _soundnum: 0
 --- !u!114 &1008119349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2035,7 +2036,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1421175656}
-        m_MethodName: ShareText
+        m_MethodName: ShareSong
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2618,6 +2619,7 @@ MonoBehaviour:
   - 13 Explotion distintos dichos por Megumin
   - "Megumin ri\xE9ndose y ejecutando su magia explosiva"
   _anime: {fileID: 2044590496}
+  animenum: 0
 --- !u!1001 &1706286920
 Prefab:
   m_ObjectHideFlags: 0

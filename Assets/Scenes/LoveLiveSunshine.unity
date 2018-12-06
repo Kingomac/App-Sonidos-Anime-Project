@@ -247,6 +247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audios: []
+  _soundnum: 0
 --- !u!82 &103328277
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1410,6 +1411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audios: []
+  _soundnum: 0
 --- !u!82 &659932789
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2228,7 +2230,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 565406816}
-        m_MethodName: ShareText
+        m_MethodName: ShareSong
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2467,6 +2469,7 @@ MonoBehaviour:
     har\xE1 lo mejor posible."
   - "You diciendo de varias formas yousoro, que se traduce como \"A toda m\xE1quina\""
   _anime: {fileID: 2039566069}
+  animenum: 0
 --- !u!1001 &1844382703
 Prefab:
   m_ObjectHideFlags: 0
