@@ -33,6 +33,7 @@ public class AudioController : MonoBehaviour {
         }
         _soundnum = Random.Range(0, audios.Length);
         if (!isPlaying) audios[_soundnum].Play();
+        Debug.Log(_soundnum);
     }
     /// <summary>
     /// Detiene todos los audios que estén sonando, NO funciona con vídeos.

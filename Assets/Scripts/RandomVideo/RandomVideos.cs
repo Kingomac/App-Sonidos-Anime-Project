@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Video;
 using System.IO;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 
 public class RandomVideos : MonoBehaviour {
 
@@ -20,20 +21,13 @@ public class RandomVideos : MonoBehaviour {
 	}
     public IEnumerator GetLink()
     {
-        WWW www = new WWW(linkslist);
-        while (!www.isDone)
-        {
-            progressBar.value = www.progress;
-            yield return null;
-        }
-        if (!string.IsNullOrEmpty(www.error))
-        {
-            Debug.Log("error1");
-        }
-        else
-        {
-            Debug.Log(www.text);
-            videoslink = www.text.Split('\n');
+        UnityWebRequest www = UnityWebRequest.Get(linkslist);
+        progressBar.value = www.downloadProgress;
+        yield return www.SendWebRequest();
+        if (!www.isNetworkError)
+        { 
+            Debug.Log(www.downloadHandler.text);
+            videoslink = www.downloadHandler.text.Split('\n');
             videoslink[videoslink.Length - 1] = videoslink[0];
             GetVideo();
         }
@@ -52,6 +46,7 @@ public class RandomVideos : MonoBehaviour {
         {
             if (!video.isPrepared)
             {
+                
                 progressBar.value += 0.005f;
             }
             else Destroy(progressBar.gameObject);

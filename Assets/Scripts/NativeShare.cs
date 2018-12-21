@@ -6,6 +6,7 @@ using NatShareU;
 using NatShareU.Platforms;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Networking;
 
 public class NativeShare : MonoBehaviour
 {
@@ -33,9 +34,9 @@ public class NativeShare : MonoBehaviour
     public IEnumerator ShareSongCore(int animenum)
     {
         GetLinksList(animenum);
-        WWW www = new WWW(songlink);
-        while (!www.isDone) yield return null;
-        File.WriteAllBytes(filepath, www.bytes);
+        UnityWebRequest www = UnityWebRequest.Get(songlink);
+        yield return www.SendWebRequest();
+        File.WriteAllBytes(filepath, www.downloadHandler.data);
         NatShare.ShareMedia(filepath);
     }
     public void GetLinksList(int animenum)
@@ -93,9 +94,9 @@ public class NativeShare : MonoBehaviour
     }
     public IEnumerator GetRandomSongLink(string linklist)
     {
-        WWW www = new WWW(linklist);
-        while (!www.isDone) yield return null;
-        links = www.text.Split('\n');
+        UnityWebRequest www = UnityWebRequest.Get(linklist);
+        yield return www.SendWebRequest();
+        links = www.downloadHandler.text.Split('\n');
         songlink = links[Random.Range(0, links.Length)];
     }
 }
