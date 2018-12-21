@@ -1,39 +1,41 @@
 fileFormatVersion: 2
-guid: 26307ddd2b0024b4091a859e4b03801f
+guid: ed569fab29a04f44cb0aa52e060ad954
 TextureImporter:
   fileIDToRecycleName:
-    21300000: "Sin t\xEDtulo-1-min_0"
-    21300002: "Sin t\xEDtulo-1-min_1"
-    21300004: "Sin t\xEDtulo-1-min_2"
-    21300006: "Sin t\xEDtulo-1-min_3"
-    21300008: "Sin t\xEDtulo-1-min_4"
-    21300010: "Sin t\xEDtulo-1-min_5"
-    21300012: "Sin t\xEDtulo-1-min_6"
-    21300014: "Sin t\xEDtulo-1-min_7"
-    21300016: "Sin t\xEDtulo-1-min_8"
-    21300018: "Sin t\xEDtulo-1-min_9"
-    21300020: "Sin t\xEDtulo-1-min_10"
-    21300022: "Sin t\xEDtulo-1-min_11"
-    21300024: "Sin t\xEDtulo-1-min_12"
-    21300026: "Sin t\xEDtulo-1-min_13"
-    21300028: "Sin t\xEDtulo-1-min_14"
-    21300030: "Sin t\xEDtulo-1-min_15"
-    21300032: "Sin t\xEDtulo-1-min_16"
-    21300034: "Sin t\xEDtulo-1-min_17"
-    21300036: "Sin t\xEDtulo-1-min_18"
-    21300038: "Sin t\xEDtulo-1-min_19"
-    21300040: "Sin t\xEDtulo-1-min_20"
-    21300042: "Sin t\xEDtulo-1-min_21"
-    21300044: "Sin t\xEDtulo-1-min_22"
-    21300046: "Sin t\xEDtulo-1-min_23"
-    21300048: "Sin t\xEDtulo-1-min_24"
-    21300050: "Sin t\xEDtulo-1-min_25"
-    21300052: "Sin t\xEDtulo-1-min_26"
-    21300054: "Sin t\xEDtulo-1-min_27"
-    21300056: "Sin t\xEDtulo-1-min_28"
-    21300058: "Sin t\xEDtulo-1-min_29"
-    21300060: "Sin t\xEDtulo-1-min_30"
-    21300062: "Sin t\xEDtulo-1-min_31"
+    21300000: "Sin t\xEDtulo-1-min2_0"
+    21300002: "Sin t\xEDtulo-1-min2_1"
+    21300004: "Sin t\xEDtulo-1-min2_2"
+    21300006: "Sin t\xEDtulo-1-min2_3"
+    21300008: "Sin t\xEDtulo-1-min2_4"
+    21300010: "Sin t\xEDtulo-1-min2_5"
+    21300012: "Sin t\xEDtulo-1-min2_6"
+    21300014: "Sin t\xEDtulo-1-min2_7"
+    21300016: "Sin t\xEDtulo-1-min2_8"
+    21300018: "Sin t\xEDtulo-1-min2_9"
+    21300020: "Sin t\xEDtulo-1-min2_10"
+    21300022: "Sin t\xEDtulo-1-min2_11"
+    21300024: "Sin t\xEDtulo-1-min2_12"
+    21300026: "Sin t\xEDtulo-1-min2_13"
+    21300028: "Sin t\xEDtulo-1-min2_14"
+    21300030: "Sin t\xEDtulo-1-min2_15"
+    21300032: "Sin t\xEDtulo-1-min2_16"
+    21300034: "Sin t\xEDtulo-1-min2_17"
+    21300036: "Sin t\xEDtulo-1-min2_18"
+    21300038: "Sin t\xEDtulo-1-min2_19"
+    21300040: "Sin t\xEDtulo-1-min2_20"
+    21300042: "Sin t\xEDtulo-1-min2_21"
+    21300044: "Sin t\xEDtulo-1-min2_22"
+    21300046: "Sin t\xEDtulo-1-min2_23"
+    21300048: "Sin t\xEDtulo-1-min2_24"
+    21300050: "Sin t\xEDtulo-1-min2_25"
+    21300052: "Sin t\xEDtulo-1-min2_26"
+    21300054: "Sin t\xEDtulo-1-min2_27"
+    21300056: "Sin t\xEDtulo-1-min2_28"
+    21300058: "Sin t\xEDtulo-1-min2_30"
+    21300060: "Sin t\xEDtulo-1-min2_31"
+    21300062: "Sin t\xEDtulo-1-min2_32"
+    21300064: "Sin t\xEDtulo-1-min2_33"
+    21300066: "Sin t\xEDtulo-1-min2_34"
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -68,7 +70,7 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -127,633 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_0"
+      name: "Sin t\xEDtulo-1-min2_0"
       rect:
         serializedVersion: 2
         x: 4
         y: 1537
         width: 654
         height: 1159
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96a1d49957458d640a29531940f0e2d3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_1"
-      rect:
-        serializedVersion: 2
-        x: 668
-        y: 1537
-        width: 652
-        height: 1159
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca9a4950db1a91a42ad42bb67f979967
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_2"
-      rect:
-        serializedVersion: 2
-        x: 1332
-        y: 1537
-        width: 654
-        height: 1159
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d390cc6023f33ad4ea20cfccbfe8f3d2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_3"
-      rect:
-        serializedVersion: 2
-        x: 1996
-        y: 1544
-        width: 908
-        height: 1156
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b742f135eb3fd814d9dc1ea44a27c4f0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_4"
-      rect:
-        serializedVersion: 2
-        x: 2914
-        y: 1544
-        width: 654
-        height: 1156
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5ee3a4e86b7239418545a35af48e166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_5"
-      rect:
-        serializedVersion: 2
-        x: 3578
-        y: 1544
-        width: 671
-        height: 1156
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7903b72753713e74fafaa0f4b8c4a1aa
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_6"
-      rect:
-        serializedVersion: 2
-        x: 4274
-        y: 1544
-        width: 654
-        height: 1156
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77333353fb3cbde47a059aadfc32d349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_7"
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 1232
-        width: 505
-        height: 288
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db7c209f2179c0046b7075eac834aee7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_8"
-      rect:
-        serializedVersion: 2
-        x: 533
-        y: 1173
-        width: 390
-        height: 359
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa3bfdb807191574089711d3cd249156
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_9"
-      rect:
-        serializedVersion: 2
-        x: 990
-        y: 1075
-        width: 256
-        height: 458
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8431d9bc48eefd749a11f21e9e19a9cd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_10"
-      rect:
-        serializedVersion: 2
-        x: 1315
-        y: 1156
-        width: 451
-        height: 364
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8fc3eac29c156414fa2c5aa2acafb126
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_11"
-      rect:
-        serializedVersion: 2
-        x: 1786
-        y: 1151
-        width: 390
-        height: 369
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b00a93047e81af4b976f77e72d34c16
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_13"
-      rect:
-        serializedVersion: 2
-        x: 2201
-        y: 1202
-        width: 544
-        height: 310
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af34795d924be2f40a68d071520a4618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_14"
-      rect:
-        serializedVersion: 2
-        x: 2767
-        y: 1107
-        width: 735
-        height: 415
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b3877b246142ac4289fdb8aa511283c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_15"
-      rect:
-        serializedVersion: 2
-        x: 3514
-        y: 1127
-        width: 235
-        height: 322
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd0bcb42e90afb7478ea50edb35f0001
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_16"
-      rect:
-        serializedVersion: 2
-        x: 3749
-        y: 1407
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7d4d5da5099b8c43ae04046dce80bcb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_17"
-      rect:
-        serializedVersion: 2
-        x: 3778
-        y: 1298
-        width: 396
-        height: 236
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 663de472760c8e0438d68998cc39a1a3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_18"
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 602
-        width: 622
-        height: 566
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 982be64c356e78a4b80d76030ed26555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_19"
-      rect:
-        serializedVersion: 2
-        x: 668
-        y: 602
-        width: 422
-        height: 417
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3573553eccde3894ab7e6e9d68db945f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_20"
-      rect:
-        serializedVersion: 2
-        x: 1127
-        y: 585
-        width: 200
-        height: 451
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a50d3b34f845da443a55285b23e1a517
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_21"
-      rect:
-        serializedVersion: 2
-        x: 1351
-        y: 743
-        width: 550
-        height: 391
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5a99fc22c1f23942b31a0689293be13
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_22"
-      rect:
-        serializedVersion: 2
-        x: 1935
-        y: 646
-        width: 303
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73c4284f5ebe2f94e900a0583c0beff0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_23"
-      rect:
-        serializedVersion: 2
-        x: 2260
-        y: 809
-        width: 253
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1cec0f8fa03b4d42b28d5141779bb10
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_24"
-      rect:
-        serializedVersion: 2
-        x: 2594
-        y: 687
-        width: 703
-        height: 398
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84eb3148fc240fd4e9fc8d11345687ac
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_25"
-      rect:
-        serializedVersion: 2
-        x: 3334
-        y: 643
-        width: 583
-        height: 442
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b3fb75224a8cb9498ce302a2b1f4d3b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_26"
-      rect:
-        serializedVersion: 2
-        x: 1339
-        y: 547
-        width: 156
-        height: 157
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab03b0774abe1914aa0fbbf606541b7c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_27"
-      rect:
-        serializedVersion: 2
-        x: 1588
-        y: 343
-        width: 503
-        height: 266
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fcbe9af8d3812764eb4ad9ccf3c96657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_28"
-      rect:
-        serializedVersion: 2
-        x: 57
-        y: 104
-        width: 337
-        height: 422
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b192a50353021024786a1a6248b5c76f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_29"
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 106
-        width: 358
-        height: 408
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75be78a5b92a410469f7e12d4b6a516e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_30"
-      rect:
-        serializedVersion: 2
-        x: 809
-        y: 84
-        width: 313
-        height: 432
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbc0d72838a61d044af43c816c218974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_31"
-      rect:
-        serializedVersion: 2
-        x: 1178
-        y: 33
-        width: 354
-        height: 493
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 842d7e6194033904ab9c3662fbe52e5b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo-1-min_12"
-      rect:
-        serializedVersion: 2
-        x: 4277
-        y: 373
-        width: 651
-        height: 1158
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -761,7 +143,667 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf512f86116f65543a88980407c4b52a
+      spriteID: 54d6023ce98f1a64f918034e943d9ff8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_1"
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1537
+        width: 652
+        height: 1159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3743a1dd0349e454db5da574091f57a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_2"
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1537
+        width: 654
+        height: 1159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d97e341c6131849b01af8f8a739ce6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_3"
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 1544
+        width: 908
+        height: 1156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8c7cdd35a65ac41a9858bbad29fdd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_4"
+      rect:
+        serializedVersion: 2
+        x: 2914
+        y: 1544
+        width: 654
+        height: 1156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e24855effe4eb547a6b70bbbe34a902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_5"
+      rect:
+        serializedVersion: 2
+        x: 3578
+        y: 1544
+        width: 671
+        height: 1156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55be88a2b26f555458d848a6eae4fa6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_6"
+      rect:
+        serializedVersion: 2
+        x: 4274
+        y: 1544
+        width: 654
+        height: 1156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9427dab5d542c94c9198c8a7cba7333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_7"
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1232
+        width: 505
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dd4d8ff92b91441a3752bf0ade7486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_8"
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1173
+        width: 390
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3539244a1777a488694d8b49334cbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_9"
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1075
+        width: 256
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9a9bd44fe1df84391cf3bf35918507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_10"
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1156
+        width: 451
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfe4991d48450f4783e4c5eed811b4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_11"
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1151
+        width: 390
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e25146211ba4414e9501b3356f1fdcc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_12"
+      rect:
+        serializedVersion: 2
+        x: 2201
+        y: 1202
+        width: 544
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadeca9fdc109eb4ca04dfc85ae990b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_13"
+      rect:
+        serializedVersion: 2
+        x: 2767
+        y: 1107
+        width: 735
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d6fa7bf0ee9c0498c8e2805af12daf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_14"
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 1127
+        width: 235
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8009233b0490dd4a9653edcf00b927c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_15"
+      rect:
+        serializedVersion: 2
+        x: 3749
+        y: 1406
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1005b86da711bc45b69c1b7c802dc50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_16"
+      rect:
+        serializedVersion: 2
+        x: 3778
+        y: 1298
+        width: 396
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b352e0e89ab7a0f45a401f2a2e4a3806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_17"
+      rect:
+        serializedVersion: 2
+        x: 4274
+        y: 370
+        width: 656
+        height: 1164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fb667c765efbb4b9cf0c1cfb0470cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_18"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 602
+        width: 622
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c99ae96a8486441b7372d539f27f48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_19"
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 602
+        width: 422
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a9060fd98601e42a20da1f153636d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_20"
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 585
+        width: 200
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49062289fac0aa43828c84c21b51c90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_21"
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 743
+        width: 550
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c62c4b5b2404dd428f999c00aa5b637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_22"
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 646
+        width: 322
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cc9c9b86d740c46a12045cfe72622a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_23"
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 808
+        width: 253
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f5d58f6bea59e4782b53e009d1e0b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_24"
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 687
+        width: 703
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6aa7049d21c2564896ccc7e99c12ce8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_25"
+      rect:
+        serializedVersion: 2
+        x: 3334
+        y: 643
+        width: 583
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e298d42cefcbf754da4233ecb91efd8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_26"
+      rect:
+        serializedVersion: 2
+        x: 3925
+        y: 592
+        width: 346
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650a950d4352f5c4ea0ffa9795bda020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_27"
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 547
+        width: 156
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b8236fdd80c7c478f14a7ae52f0f66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_28"
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 343
+        width: 503
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571546654f20c104e92e37a31bcc81d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_30"
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 104
+        width: 337
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623880ad4197b154ca5699a72e6a6590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_31"
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 106
+        width: 358
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dff38b489a2dd4e961e9f58a3edf80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_32"
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 84
+        width: 313
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa851d202eae41146841598f3ded66a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_33"
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 33
+        width: 354
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54484ba0950497e4e94a7fc4f39c3d55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo-1-min2_34"
+      rect:
+        serializedVersion: 2
+        x: 4650
+        y: 28
+        width: 315
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf07ad91eedcb7843a32e33ad642f29a
       vertices: []
       indices: 
       edges: []
@@ -769,7 +811,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d8dc31d455d9c14439d75a36beba32b3
+    spriteID: 8213bb96c09e80c448414622da03a7be
     vertices: []
     indices: 
     edges: []
