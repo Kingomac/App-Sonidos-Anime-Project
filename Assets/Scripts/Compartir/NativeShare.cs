@@ -11,6 +11,8 @@ using UnityEngine.Networking;
 public class NativeShare : MonoBehaviour
 {
     public DescripcionSonido descripcionSonido;
+    public GameObject[] ShareWindow;
+    public GameObject[] PlayWindow;
     public string[] links;
     private string filepath;
     protected string songlink;
@@ -26,6 +28,16 @@ public class NativeShare : MonoBehaviour
     {
         string text = "Que bien me lo paso con la maravillosa App de Sonidos de Anime, acabo de escuchar: " + descripcionSonido._anime.text;
         NatShare.ShareText(text);
+    }
+    public void ShowShareWindow()
+    {
+        ShareWindow[descripcionSonido.animenum].SetActive(true);
+        GameObject.Find("DescripcionAnime").SetActive(false);
+    }
+    public void ShowPlayWindow()
+    {
+        PlayWindow[descripcionSonido.animenum].SetActive(true);
+        GameObject.Find("DescripcionAnime").SetActive(false);
     }
     public void ShareSong()
     {
