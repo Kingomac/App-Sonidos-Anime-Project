@@ -37,17 +37,16 @@ public class Share : MonoBehaviour
         }
     }
 
-    public IEnumerator ShareSong()
+    public IEnumerator ShareSong(int num)
     {
         StartCoroutine(GetLinks());
-        UnityWebRequest www = UnityWebRequest.Get(shareController.GetLink(Convert.ToInt32(gameObject.name)));
-        Debug.Log(gameObject.name);
+        UnityWebRequest www = UnityWebRequest.Get(shareController.GetLink(num));
         yield return www.SendWebRequest();
         File.WriteAllBytes(Application.temporaryCachePath + "/Share/sound.mp3",www.downloadHandler.data);
         NatShare.ShareMedia(Application.temporaryCachePath + "/Share/sound.mp3");
     }
-    public void CallShareSong()
+    public void CallShareSong(int num)
     {
-        StartCoroutine(ShareSong());
+        StartCoroutine(ShareSong(num));
     }
 }
