@@ -294,6 +294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bafaba5c204a3a4ebdd6724f9f5a4a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  title: {fileID: 834004657}
   progressBar: {fileID: 1775158874}
   news: {fileID: 2111701285}
   controller: {fileID: 983073323}
@@ -759,9 +760,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sonidos de Anime v0.4
-
-'
+  m_Text: Sonidos de Anime v0.4.5
 --- !u!222 &333443766
 CanvasRenderer:
   m_ObjectHideFlags: 0
