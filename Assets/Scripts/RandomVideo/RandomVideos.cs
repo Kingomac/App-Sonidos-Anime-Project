@@ -8,21 +8,19 @@ using UnityEngine.Networking;
 
 public class RandomVideos : MonoBehaviour {
 
-    public Slider progressBar;
+    public Image progressBar;
     public string linkslist;
     private VideoPlayer video;
     private int videonum = 99;
     public string[] videoslink = { "https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/video/RandomVideos/kuroko.mp4" };
 	// Use this for initialization
 	void Start () {
-        progressBar = FindObjectOfType<Slider>();
 		video = GetComponent<VideoPlayer>();
         StartCoroutine(GetLink());
 	}
     public IEnumerator GetLink()
     {
         UnityWebRequest www = UnityWebRequest.Get(linkslist);
-        progressBar.value = www.downloadProgress;
         yield return www.SendWebRequest();
         if (!www.isNetworkError)
         { 
@@ -44,12 +42,7 @@ public class RandomVideos : MonoBehaviour {
     {
         if(progressBar != null)
         {
-            if (!video.isPrepared)
-            {
-                
-                progressBar.value += 0.005f;
-            }
-            else Destroy(progressBar.gameObject);
+            if (video.isPrepared) Destroy(progressBar.gameObject);
         }
     }
 }
