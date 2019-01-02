@@ -1351,7 +1351,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -390, y: 1435}
+  m_AnchoredPosition: {x: -390, y: 626.30786}
   m_SizeDelta: {x: 146.3, y: 67.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &619595211
@@ -2168,8 +2168,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -808.69995}
-  m_SizeDelta: {x: -0.000061035156, y: 1617.4004}
+  m_AnchoredPosition: {x: 0, y: 0.000045349243}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &894517237
 MonoBehaviour:
@@ -2184,6 +2184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioController: {fileID: 1872540833}
+  parentButton: {fileID: 0}
   Links: []
 --- !u!114 &894517238
 MonoBehaviour:
@@ -2337,7 +2338,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -390, y: 1595.0001}
+  m_AnchoredPosition: {x: -390, y: 786.2999}
   m_SizeDelta: {x: 146.3, y: 67.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &917025141
@@ -3034,7 +3035,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -390, y: 1195}
+  m_AnchoredPosition: {x: -390, y: 386.30786}
   m_SizeDelta: {x: 146.3, y: 67.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &992066720
@@ -3861,7 +3862,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -390, y: 1514.0002}
+  m_AnchoredPosition: {x: -390, y: 705.3081}
   m_SizeDelta: {x: 146.3, y: 67.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1327304132
@@ -4234,8 +4235,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -808.69995}
-  m_SizeDelta: {x: -0.000061035156, y: 1617.4004}
+  m_AnchoredPosition: {x: 0, y: -55.763798}
+  m_SizeDelta: {x: 0, y: -66.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1480598060
 MonoBehaviour:
@@ -4250,6 +4251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioController: {fileID: 1872540833}
+  parentButton: {fileID: 0}
   Links:
   - 
   - 
@@ -4459,7 +4461,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -390, y: 1595.0001}
+  m_AnchoredPosition: {x: -390, y: 786.30786}
   m_SizeDelta: {x: 146.3, y: 67.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1552193046
@@ -4748,7 +4750,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -390, y: 1355}
+  m_AnchoredPosition: {x: -390, y: 546.30786}
   m_SizeDelta: {x: 146.3, y: 67.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1583168484
@@ -5253,7 +5255,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -390, y: 1276}
+  m_AnchoredPosition: {x: -390, y: 467.30786}
   m_SizeDelta: {x: 146.3, y: 67.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1801993744
@@ -6813,6 +6815,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114715302715875420, guid: 3bbff3e44ca16ee4db166d979c77177d,
+        type: 3}
+      propertyPath: PlayShareWindow.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114715302715875420, guid: 3bbff3e44ca16ee4db166d979c77177d,
+        type: 3}
+      propertyPath: descripcionSonido
+      value: 
+      objectReference: {fileID: 1771532548}
+    - target: {fileID: 114715302715875420, guid: 3bbff3e44ca16ee4db166d979c77177d,
+        type: 3}
+      propertyPath: PlayShareWindow.Array.data[0]
+      value: 
+      objectReference: {fileID: 990838563}
+    - target: {fileID: 114715302715875420, guid: 3bbff3e44ca16ee4db166d979c77177d,
+        type: 3}
+      propertyPath: PlayShareWindow.Array.data[1]
+      value: 
+      objectReference: {fileID: 1000127358}
     - target: {fileID: 4793761073368172, guid: 3bbff3e44ca16ee4db166d979c77177d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6845,26 +6867,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 114715302715875420, guid: 3bbff3e44ca16ee4db166d979c77177d,
-        type: 3}
-      propertyPath: PlayShareWindow.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114715302715875420, guid: 3bbff3e44ca16ee4db166d979c77177d,
-        type: 3}
-      propertyPath: descripcionSonido
-      value: 
-      objectReference: {fileID: 1771532548}
-    - target: {fileID: 114715302715875420, guid: 3bbff3e44ca16ee4db166d979c77177d,
-        type: 3}
-      propertyPath: PlayShareWindow.Array.data[0]
-      value: 
-      objectReference: {fileID: 990838563}
-    - target: {fileID: 114715302715875420, guid: 3bbff3e44ca16ee4db166d979c77177d,
-        type: 3}
-      propertyPath: PlayShareWindow.Array.data[1]
-      value: 
-      objectReference: {fileID: 1000127358}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bbff3e44ca16ee4db166d979c77177d, type: 3}
 --- !u!1 &2056270130
