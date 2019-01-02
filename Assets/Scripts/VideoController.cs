@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.Video;
 
 public class VideoController : MonoBehaviour {
-
     private VideoPlayer video;
     public GameObject cube;
     [Range(0.01f, 0.5f)]
@@ -27,8 +26,22 @@ public class VideoController : MonoBehaviour {
 	}
     public void Play()
     {
-        try { FindObjectOfType<AudioController>().StopAll(); } catch { }
-        try { FindObjectOfType<StopVideos>().PauseAll(); } catch { }
+        try
+        {
+            FindObjectOfType<AudioController>().StopAll();
+        }
+        catch
+        {
+
+        }
+        try
+        {
+            FindObjectOfType<StopVideos>().PauseAll();
+        }
+        catch
+        {
+
+        }
         Material cubeM = cube.GetComponent<Renderer>().material;
         if (video.isPlaying)
         {
