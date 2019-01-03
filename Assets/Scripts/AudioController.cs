@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioController : MonoBehaviour {
-
     public AudioSource[] audios;
     public int _soundnum;
     public string listLink;
@@ -11,18 +10,25 @@ public class AudioController : MonoBehaviour {
 	void Start () {
         audios = GetComponents<AudioSource>();
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
     /// <summary>
     /// Reproducir uno de los AudioSource aleatorios
     /// </summary>
     public void Play()
     {
-        try { FindObjectOfType<AudioController>().StopAll(); } catch { }
-        try { FindObjectOfType<StopVideos>().PauseAll(); } catch { }
+        try
+        {
+            FindObjectOfType<AudioController>().StopAll();
+        }
+        catch
+        {
+        }
+        try
+        {
+            FindObjectOfType<StopVideos>().PauseAll();
+        }
+        catch
+        {
+        }
         bool isPlaying = false;
         for(int i = 0; i < audios.Length; i++)
         {
@@ -70,8 +76,20 @@ public class AudioController : MonoBehaviour {
     /// <param name="audioNum"></param>
     public void SelectAndPlay(int audioNum)
     {
-        try { FindObjectOfType<AudioController>().StopAll(); } catch { }
-        try { FindObjectOfType<StopVideos>().PauseAll(); } catch { }
+        try
+        {
+            FindObjectOfType<AudioController>().StopAll();
+        }
+        catch
+        {
+        }
+        try
+        {
+            FindObjectOfType<StopVideos>().PauseAll();
+        }
+        catch
+        {
+        }
         audios[audioNum].Play();
     }
 }

@@ -4,16 +4,12 @@
 */
 
 namespace NatShareU {
-
 	using UnityEngine;
 	using Platforms;
 	using Docs;
-
 	[Doc(@"NatShare")]
 	public static class NatShare {
-
 		#region --Client API--
-
 		/// <summary>
         /// Share plain text with the native sharing UI.
         /// Returns true if the text can be shared.
@@ -27,7 +23,6 @@ namespace NatShareU {
 			}
 			return Implementation.ShareText(text, callback);
 		}
-
 		/// <summary>
         /// Share an texture with the native sharing UI.
         /// Returns true if the image can be shared.
@@ -43,7 +38,6 @@ namespace NatShareU {
 			}
 			return Implementation.ShareImage(image.EncodeToPNG(), message, callback);
 		}
-
 		/// <summary>
         /// Share a media file with the native sharing UI.
         /// Returns true if media file is found and can be shared.
@@ -59,7 +53,6 @@ namespace NatShareU {
 			}
 			return Implementation.ShareMedia(path, message, callback);
 		}
-
 		/// <summary>
         /// Save an image to the camera roll.
         /// Returns true if the image can be saved to the camera roll.
@@ -73,7 +66,6 @@ namespace NatShareU {
 			}
 			return Implementation.SaveToCameraRoll(image.EncodeToPNG());
 		}
-
 		/// <summary>
         /// Save a media file to the camera roll.
         /// Returns true if the file is found and can be saved to the camera roll.
@@ -87,7 +79,6 @@ namespace NatShareU {
 			}
 			return Implementation.SaveToCameraRoll(path);
 		}
-
 		/// <summary>
         /// Get a thumbnail texture for a recorded video.
         /// If the thumbnail cannot be loaded, the function will return `null`.
@@ -103,12 +94,9 @@ namespace NatShareU {
 			return Implementation.GetThumbnail(videoPath, time);
 		}
 		#endregion
-
-
 		#region --Initializer--
 
 		public static readonly INatShare Implementation;
-
 		static NatShare () {
 			Implementation =
 			#if UNITY_STANDALONE || UNITY_EDITOR

@@ -32,7 +32,6 @@ public class VideoController : MonoBehaviour {
         }
         catch
         {
-
         }
         try
         {
@@ -40,7 +39,6 @@ public class VideoController : MonoBehaviour {
         }
         catch
         {
-
         }
         Material cubeM = cube.GetComponent<Renderer>().material;
         if (video.isPlaying)

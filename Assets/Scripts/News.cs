@@ -7,7 +7,6 @@ using System.IO;
 using System;
 
 public class News : MonoBehaviour {
-
     public Text title;
     public Slider progressBar;
     public Text news;
@@ -15,7 +14,6 @@ public class News : MonoBehaviour {
     public string newsURL = "https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/news.txt";
     private Image[] backgrounds;
     private float[] backAlpha;
-
     // Use this for initialization
     void Awake () {
         backgrounds = GetComponentsInChildren<Image>();
@@ -24,20 +22,15 @@ public class News : MonoBehaviour {
         if (!controller.newsShowed) StartCoroutine(GetNews());
         else gameObject.SetActive(false);
         backAlpha = new float[backgrounds.Length];
-        for(int i = 0; i < backgrounds.Length;i++)
+        for(int i = 0; i < backgrounds.Length; i++)
         {
             backAlpha[i] = backgrounds[i].color.a;
-        }
+        }  
     }
     private void Start()
     {
         Hide();
     }
-
-    // Update is called once per frame
-    void Update () {
-		
-	}
     public void Hide()
     {
         foreach(Image back in backgrounds)
