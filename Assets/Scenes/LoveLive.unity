@@ -152,8 +152,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.2000122, y: 584}
-  m_SizeDelta: {x: 955, y: 625}
+  m_AnchoredPosition: {x: 2.2000122, y: 624.4}
+  m_SizeDelta: {x: 955, y: 544.1}
   m_Pivot: {x: 0.49999997, y: 0.50000024}
 --- !u!328 &33902639
 VideoPlayer:
@@ -710,6 +710,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114715302715875420, guid: 3bbff3e44ca16ee4db166d979c77177d,
+        type: 3}
+      propertyPath: descripcionSonido
+      value: 
+      objectReference: {fileID: 1843025555}
     - target: {fileID: 4793761073368172, guid: 3bbff3e44ca16ee4db166d979c77177d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -742,11 +747,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 114715302715875420, guid: 3bbff3e44ca16ee4db166d979c77177d,
-        type: 3}
-      propertyPath: descripcionSonido
-      value: 
-      objectReference: {fileID: 1843025555}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bbff3e44ca16ee4db166d979c77177d, type: 3}
 --- !u!114 &376228603 stripped

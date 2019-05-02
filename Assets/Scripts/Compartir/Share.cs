@@ -5,6 +5,7 @@ using UnityEngine.Networking;
 using System.IO;
 using NatShareU;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class Share : MonoBehaviour
 {

@@ -275,7 +275,7 @@ RectTransform:
   - {fileID: 1798113787}
   - {fileID: 1775158873}
   m_Father: {fileID: 295252240}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -513,6 +513,7 @@ RectTransform:
   - {fileID: 1063625552}
   - {fileID: 1605494497}
   - {fileID: 321621251}
+  - {fileID: 1870921596}
   - {fileID: 129129926}
   - {fileID: 420215448}
   m_Father: {fileID: 0}
@@ -999,7 +1000,7 @@ RectTransform:
   - {fileID: 1021050294}
   - {fileID: 2011745741}
   m_Father: {fileID: 295252240}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1026,6 +1027,7 @@ MonoBehaviour:
   - Love Live School Idol Project
   - One Piece
   - Eromanga-sensei
+  - Mirai Nikki
   sinopsis:
   - "Las personas no nacen igual. El protagonista de esta historia es uno de esos
     casos raros que nacen sin superpoderes, pero esto no le impedir\xE1 perseguir
@@ -1234,6 +1236,13 @@ MonoBehaviour:
     salido Ero Manga Sensei no es otro que su mona hermanita! Entre ellos adem\xE1s
     se entrometer\xE1 una popular\xEDsima y guap\xEDsima escritora que pondr\xE1 la
     casa de los Izumi patas arriba."
+  - "Amano Yukiteru, un estudiante de 2\xBA a\xF1o de secundaria, es un chico solitario
+    e introvertido que gasta todo su tiempo escribiendo un diario en su celular desde
+    el punto de vista de un espectador. Su \xFAnico amigo es un producto de su imaginacion,
+    Deus Ex Machina, el Dios del Tiempo y el Espacio. Un d\xEDa, este dios le da al
+    diario de Yukiteru la habilidad de ver lo que sucedera en los siguientes 90 d\xEDas
+    en el futuro y enrola a Yukiteru en un torneo mortal donde debera luchar por su
+    vida contra los poseedores de otros diarios similares."
   _anime: {fileID: 639277628}
   _sinopsis: {fileID: 1586471555}
 --- !u!1 &533097436
@@ -4008,6 +4017,173 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1798113786}
+  m_CullTransparentMesh: 0
+--- !u!1 &1870921595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1870921596}
+  - component: {fileID: 1870921601}
+  - component: {fileID: 1870921600}
+  - component: {fileID: 1870921599}
+  - component: {fileID: 1870921598}
+  - component: {fileID: 1870921597}
+  m_Layer: 5
+  m_Name: MiraiNikki
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1870921596
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870921595}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.97445, z: 1}
+  m_Children: []
+  m_Father: {fileID: 295252240}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 44.756, y: -670.84}
+  m_SizeDelta: {x: 402.13, y: 556.4}
+  m_Pivot: {x: 0.6292014, y: 0.08338959}
+--- !u!114 &1870921597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870921595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b935c7aa7779944a8a02037d31b5b89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pressed: 0
+--- !u!114 &1870921598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870921595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40081deb39eebb40a221926aebfb3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pantalla: {fileID: 420215447}
+  tiempoMantenerPulsado: 2
+  animeNum: 7
+  velocidadAnimacion: 0.071
+  fondos:
+  - {fileID: 1116449029}
+  - {fileID: 1021050296}
+  - {fileID: 533097438}
+  textos:
+  - {fileID: 639277628}
+  - {fileID: 1500834616}
+  - {fileID: 1586471555}
+--- !u!114 &1870921599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870921595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1870921600}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1424071340}
+        m_MethodName: ChangeScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MiraiNikki
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1870921600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870921595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: d97358a163223604f9234ffd1fb7955f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1870921601
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870921595}
   m_CullTransparentMesh: 0
 --- !u!1 &1971144218
 GameObject:
