@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: ee3d1b96bba13664783b4a2b2bd7c384
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7906634178465093631
+    second: logos_0
+  - first:
+      213: -7613272007434390151
+    second: logos_1
+  - first:
+      213: 9035733284404162712
+    second: logos_2
+  - first:
+      213: -7710178624236673604
+    second: logos_3
+  - first:
+      213: 154788411476215924
+    second: logos_8
+  - first:
+      213: -8600863759162707186
+    second: logos_9
+  - first:
+      213: 8999227199669515906
+    second: logos_10
+  - first:
+      213: -2184313660759959241
+    second: logos_11
+  - first:
+      213: 7349945241557902469
+    second: logos_12
+  - first:
+      213: -1526774868555335089
+    second: logos_13
+  - first:
+      213: -9132554424326865747
+    second: logos_14
+  - first:
+      213: 9080322263229259544
+    second: logos_15
+  - first:
+      213: 478968247930616909
+    second: logos_16
+  - first:
+      213: -520509243878251667
+    second: logos_17
+  - first:
+      213: 3570183719953332730
+    second: logos_23
+  - first:
+      213: 9151498586883046274
+    second: logos_24
+  - first:
+      213: 2087283279610417740
+    second: logos_25
+  - first:
+      213: 2560941841562749513
+    second: logos_26
+  - first:
+      213: 2398806963152140462
+    second: logos_27
+  - first:
+      213: -8434945085381421656
+    second: logos_28
+  - first:
+      213: 587261251989784557
+    second: logos_29
+  - first:
+      213: -7337739660198963214
+    second: logos_30
+  - first:
+      213: -4746186297669588822
+    second: logos_31
+  - first:
+      213: -420082034540317619
+    second: logos_32
+  - first:
+      213: 2780744912433075735
+    second: logos_33
+  - first:
+      213: -6744603669334352012
+    second: logos_34
+  - first:
+      213: -2223928714411120293
+    second: logos_35
+  - first:
+      213: 5986607652952131531
+    second: logos_36
+  - first:
+      213: 5206968348254011432
+    second: logos_37
+  - first:
+      213: -599971832562744649
+    second: logos_38
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: logos_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 570
+        width: 640
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dbd39c2decabf41aa9e08753d9a124
+      internalID: 7906634178465093631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logos_1
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 409
+        width: 700
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac8c80158f542846bf703dfc88892f4
+      internalID: -7613272007434390151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logos_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 328
+        width: 700
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffebba2502144f4a89e762fd5411d7e
+      internalID: 9035733284404162712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logos_3
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 191
+        width: 360
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730e17f470a24ba459df667f788cca20
+      internalID: -7710178624236673604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logos_17
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 209
+        width: 525
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b633a443d9bf24d90e3cee429548cb
+      internalID: -520509243878251667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logos_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 451
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e587799304b374a885ced02028d108
+      internalID: 3570183719953332730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3713d14d6b5190540a4f8bb481b92bd3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

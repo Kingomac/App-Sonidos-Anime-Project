@@ -54,7 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 10
+    serializedVersion: 12
     m_Resolution: 2
     m_BakeResolution: 40
     m_AtlasSize: 1024
@@ -62,6 +62,7 @@ LightmapSettings:
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
     m_Padding: 2
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
@@ -76,10 +77,16 @@ LightmapSettings:
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
     m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
     m_PVRFilterTypeDirect: 0
     m_PVRFilterTypeIndirect: 0
     m_PVRFilterTypeAO: 0
-    m_PVRFilteringMode: 1
+    m_PVREnvironmentMIS: 0
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
@@ -88,6 +95,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
+    m_ExportTrainingData: 0
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -473,6 +481,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 635319661}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &188044271 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7634333351455769514, guid: be3f9f6af60a7f14b9913b4859d1ec2b,
+    type: 3}
+  m_PrefabInstance: {fileID: 635319661}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188044269}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9060048bf4049484fb13eed2a68a7ea7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &232287990
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,8 +604,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccad2f0041aebc246a0b2d83e8a7aef7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shareController: {fileID: 0}
-  timer: 0
 --- !u!114 &296784211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -609,17 +627,20 @@ MonoBehaviour:
     m_NormalColor: {r: 0.29690284, g: 0.36461633, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_PressedColor: {r: 0.1745283, g: 0.40094337, b: 0.6981132, a: 1}
+    m_SelectedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 296784212}
@@ -758,17 +779,20 @@ MonoBehaviour:
     m_NormalColor: {r: 0.29690284, g: 0.36461633, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_PressedColor: {r: 0.1745283, g: 0.40094337, b: 0.6981132, a: 1}
+    m_SelectedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 345369712}
@@ -1119,17 +1143,20 @@ MonoBehaviour:
     m_NormalColor: {r: 0.29690284, g: 0.36461633, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_PressedColor: {r: 0.1745283, g: 0.40094337, b: 0.6981132, a: 1}
+    m_SelectedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 511083641}
@@ -1248,17 +1275,20 @@ MonoBehaviour:
     m_NormalColor: {r: 0.29690284, g: 0.36461633, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_PressedColor: {r: 0.1745283, g: 0.40094337, b: 0.6981132, a: 1}
+    m_SelectedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 555999006}
@@ -1501,11 +1531,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1863247597}
+      objectReference: {fileID: 188044271}
     - target: {fileID: 114193058678841790, guid: be3f9f6af60a7f14b9913b4859d1ec2b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ChangeScene
+      value: Main
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be3f9f6af60a7f14b9913b4859d1ec2b, type: 3}
@@ -1577,17 +1607,20 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 710716415}
@@ -1818,17 +1851,20 @@ MonoBehaviour:
     m_NormalColor: {r: 0.29690284, g: 0.36461633, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_PressedColor: {r: 0.1745283, g: 0.40094337, b: 0.6981132, a: 1}
+    m_SelectedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 806391780}
@@ -2065,17 +2101,20 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 861109909}
@@ -2183,9 +2222,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9a41fba34470b6459741822a7b3e366, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioController: {fileID: 1872540833}
-  parentButton: {fileID: 0}
-  Links: []
 --- !u!114 &894517238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2524,17 +2560,20 @@ MonoBehaviour:
     m_NormalColor: {r: 0.29690284, g: 0.36461633, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_PressedColor: {r: 0.1745283, g: 0.40094337, b: 0.6981132, a: 1}
+    m_SelectedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 956595936}
@@ -2766,17 +2805,20 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 980821989}
@@ -2882,8 +2924,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audios: []
-  _soundnum: 0
-  listLink: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/blackclover/remix.txt
 --- !u!1 &987121463
 GameObject:
   m_ObjectHideFlags: 0
@@ -3160,9 +3200,10 @@ Camera:
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -3389,17 +3430,20 @@ MonoBehaviour:
     m_NormalColor: {r: 0.29690284, g: 0.36461633, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_PressedColor: {r: 0.1745283, g: 0.40094337, b: 0.6981132, a: 1}
+    m_SelectedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1045444075}
@@ -3608,17 +3652,20 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1148882306}
@@ -3759,17 +3806,20 @@ MonoBehaviour:
     m_NormalColor: {r: 0.29690284, g: 0.36461633, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_PressedColor: {r: 0.1745283, g: 0.40094337, b: 0.6981132, a: 1}
+    m_SelectedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1160181589}
@@ -3969,17 +4019,20 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1373732848}
@@ -4250,15 +4303,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9a41fba34470b6459741822a7b3e366, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioController: {fileID: 1872540833}
-  parentButton: {fileID: 0}
-  Links:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
 --- !u!114 &1480598061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4358,17 +4402,20 @@ MonoBehaviour:
     m_NormalColor: {r: 0.29690284, g: 0.36461633, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_PressedColor: {r: 0.1745283, g: 0.40094337, b: 0.6981132, a: 1}
+    m_SelectedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1520249550}
@@ -4568,17 +4615,20 @@ MonoBehaviour:
     m_NormalColor: {r: 0.29690284, g: 0.36461633, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_PressedColor: {r: 0.1745283, g: 0.40094337, b: 0.6981132, a: 1}
+    m_SelectedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1566370047}
@@ -5015,17 +5065,20 @@ MonoBehaviour:
     m_NormalColor: {r: 0.29690284, g: 0.36461633, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_PressedColor: {r: 0.1745283, g: 0.40094337, b: 0.6981132, a: 1}
+    m_SelectedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1691011958}
@@ -5520,17 +5573,20 @@ MonoBehaviour:
     m_NormalColor: {r: 0.29690284, g: 0.36461633, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_PressedColor: {r: 0.1745283, g: 0.40094337, b: 0.6981132, a: 1}
+    m_SelectedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1859573445}
@@ -5597,18 +5653,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 344516ff54cb3aa49b85d90f41824fc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1863247597 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114611285606938970, guid: 3bbff3e44ca16ee4db166d979c77177d,
-    type: 3}
-  m_PrefabInstance: {fileID: 2051019595}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c12d3b366ffac404f9788b725b982007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1863247598 stripped
@@ -5697,17 +5741,20 @@ MonoBehaviour:
     m_NormalColor: {r: 0.29690284, g: 0.36461633, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_PressedColor: {r: 0.1745283, g: 0.40094337, b: 0.6981132, a: 1}
+    m_SelectedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1871287247}
@@ -5825,8 +5872,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audios: []
-  _soundnum: 0
-  listLink: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/blackclover/baha.txt
 --- !u!82 &1872540834
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6498,17 +6543,20 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1872540841}
@@ -6901,8 +6949,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccad2f0041aebc246a0b2d83e8a7aef7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shareController: {fileID: 0}
-  timer: 0
 --- !u!114 &2056270132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6926,17 +6972,20 @@ MonoBehaviour:
     m_NormalColor: {r: 0.29690284, g: 0.36461633, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_PressedColor: {r: 0.1745283, g: 0.40094337, b: 0.6981132, a: 1}
+    m_SelectedColor: {r: 0.3990299, g: 0.4991725, b: 0.5754717, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 2056270133}
@@ -7075,17 +7124,20 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 2117187867}
