@@ -208,10 +208,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 14656934}
-  - component: {fileID: 14656933}
-  - component: {fileID: 14656935}
   - component: {fileID: 14656936}
-  - component: {fileID: 14656937}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -219,18 +216,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &14656933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 14656932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00b0a1211e2b43f488db555d5921de55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &14656934
 Transform:
   m_ObjectHideFlags: 0
@@ -245,18 +230,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &14656935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 14656932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c12d3b366ffac404f9788b725b982007, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &14656936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,18 +243,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audios: []
---- !u!114 &14656937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 14656932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 344516ff54cb3aa49b85d90f41824fc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &17121720
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,7 +496,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 14656937}
+      - m_Target: {fileID: 0}
         m_MethodName: ShowSoundButtons
         m_Mode: 1
         m_Arguments:
@@ -8417,7 +8378,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 14656937}
+      - m_Target: {fileID: 0}
         m_MethodName: ShowSoundButtons
         m_Mode: 1
         m_Arguments:
@@ -11371,8 +11332,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -21.4, y: -203.7}
-  m_SizeDelta: {x: 1301.4, y: 2860.9}
+  m_AnchoredPosition: {x: 8.7, y: -0.8}
+  m_SizeDelta: {x: 1166.1, y: 2049}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &657326191
 MonoBehaviour:
@@ -11396,7 +11357,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: ed569fab29a04f44cb0aa52e060ad954, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -13391,6 +13352,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7634333351455769514, guid: be3f9f6af60a7f14b9913b4859d1ec2b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 224511093859139596, guid: be3f9f6af60a7f14b9913b4859d1ec2b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13490,11 +13456,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Main
-      objectReference: {fileID: 0}
-    - target: {fileID: 7634333351455769514, guid: be3f9f6af60a7f14b9913b4859d1ec2b,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be3f9f6af60a7f14b9913b4859d1ec2b, type: 3}
@@ -15526,7 +15487,7 @@ PrefabInstance:
     - target: {fileID: 114069390306722836, guid: 88299b726e1235542ac0edc118c95237,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114069390306722836, guid: 88299b726e1235542ac0edc118c95237,
         type: 3}
@@ -15547,7 +15508,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 14656933}
+      objectReference: {fileID: 0}
     - target: {fileID: 114069390306722836, guid: 88299b726e1235542ac0edc118c95237,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -15561,7 +15522,7 @@ PrefabInstance:
     - target: {fileID: 114069390306722836, guid: 88299b726e1235542ac0edc118c95237,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StopAll
+      value: FindAndStopAll
       objectReference: {fileID: 0}
     - target: {fileID: 224368637235038454, guid: 88299b726e1235542ac0edc118c95237,
         type: 3}
@@ -29907,7 +29868,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 14656937}
+      - m_Target: {fileID: 0}
         m_MethodName: ShowSharePlay
         m_Mode: 1
         m_Arguments:
@@ -31180,7 +31141,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 14656937}
+      - m_Target: {fileID: 0}
         m_MethodName: ShowSoundButtons
         m_Mode: 1
         m_Arguments:
@@ -31811,7 +31772,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 14656937}
+      - m_Target: {fileID: 0}
         m_MethodName: ShowSoundButtons
         m_Mode: 1
         m_Arguments:
@@ -33548,7 +33509,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 14656937}
+      - m_Target: {fileID: 0}
         m_MethodName: ShowSoundButtons
         m_Mode: 1
         m_Arguments:

@@ -9477,17 +9477,17 @@ PrefabInstance:
     - target: {fileID: 114069390306722836, guid: 88299b726e1235542ac0edc118c95237,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114069390306722836, guid: 88299b726e1235542ac0edc118c95237,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 956387312}
     - target: {fileID: 114069390306722836, guid: 88299b726e1235542ac0edc118c95237,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StopAll
+      value: FindAndStopAll
       objectReference: {fileID: 0}
     - target: {fileID: 114069390306722836, guid: 88299b726e1235542ac0edc118c95237,
         type: 3}

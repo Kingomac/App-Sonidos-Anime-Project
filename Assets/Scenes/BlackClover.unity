@@ -1660,7 +1660,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1863247596}
+      - m_Target: {fileID: 0}
         m_MethodName: ShowSoundButtons
         m_Mode: 1
         m_Arguments:
@@ -1934,6 +1934,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114069390306722836, guid: 88299b726e1235542ac0edc118c95237,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114069390306722836, guid: 88299b726e1235542ac0edc118c95237,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1863247599}
@@ -1941,7 +1946,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1863247598}
+      objectReference: {fileID: 0}
+    - target: {fileID: 114069390306722836, guid: 88299b726e1235542ac0edc118c95237,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: FindAndStopAll
+      objectReference: {fileID: 0}
     - target: {fileID: 224368637235038454, guid: 88299b726e1235542ac0edc118c95237,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3672,7 +3682,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1863247596}
+      - m_Target: {fileID: 0}
         m_MethodName: ShowSharePlay
         m_Mode: 1
         m_Arguments:
@@ -5643,30 +5653,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859573442}
   m_CullTransparentMesh: 0
---- !u!114 &1863247596 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114715302715875420, guid: 3bbff3e44ca16ee4db166d979c77177d,
-    type: 3}
-  m_PrefabInstance: {fileID: 2051019595}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 344516ff54cb3aa49b85d90f41824fc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1863247598 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114630465132059212, guid: 3bbff3e44ca16ee4db166d979c77177d,
-    type: 3}
-  m_PrefabInstance: {fileID: 2051019595}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00b0a1211e2b43f488db555d5921de55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1863247599 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114307731479881334, guid: 3bbff3e44ca16ee4db166d979c77177d,
@@ -6915,7 +6901,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114630465132059212, guid: 3bbff3e44ca16ee4db166d979c77177d, type: 3}
+    - {fileID: 114611285606938970, guid: 3bbff3e44ca16ee4db166d979c77177d, type: 3}
+    - {fileID: 114715302715875420, guid: 3bbff3e44ca16ee4db166d979c77177d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3bbff3e44ca16ee4db166d979c77177d, type: 3}
 --- !u!1 &2056270130
 GameObject:
@@ -7177,7 +7166,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1863247596}
+      - m_Target: {fileID: 0}
         m_MethodName: ShowSoundButtons
         m_Mode: 1
         m_Arguments:
