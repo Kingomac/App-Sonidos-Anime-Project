@@ -3954,6 +3954,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 845274764}
   m_CullTransparentMesh: 0
+--- !u!1001 &846920850
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 946622269}
+    m_Modifications:
+    - target: {fileID: 5237894456179046351, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_Name
+      value: SceneChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 264.95343
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 48.517395
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -190.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 89b0881ddcbc5d24e966a9d6b52514f9, type: 3}
+--- !u!4 &846920851 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+    type: 3}
+  m_PrefabInstance: {fileID: 846920850}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &891190735
 GameObject:
   m_ObjectHideFlags: 0
@@ -4261,6 +4336,7 @@ RectTransform:
   - {fileID: 2014697557}
   - {fileID: 1706286921}
   - {fileID: 1612133972}
+  - {fileID: 846920851}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4795,16 +4871,6 @@ MonoBehaviour:
   Pantalla: {fileID: 1612133971}
   tiempoMantenerPulsado: 2
   animeNum: 0
-  velocidadAnimacion: 0.1
-  fondos:
-  - {fileID: 1116858568}
-  - {fileID: 2107938627}
-  - {fileID: 213242409}
-  - {fileID: 1220514994}
-  textos:
-  - {fileID: 2044590496}
-  - {fileID: 2061023836}
-  - {fileID: 1552353787}
 --- !u!114 &1008119366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5910,16 +5976,6 @@ MonoBehaviour:
   Pantalla: {fileID: 1612133971}
   tiempoMantenerPulsado: 2
   animeNum: 1
-  velocidadAnimacion: 0.1
-  fondos:
-  - {fileID: 1116858568}
-  - {fileID: 2107938627}
-  - {fileID: 213242409}
-  - {fileID: 1220514994}
-  textos:
-  - {fileID: 2044590496}
-  - {fileID: 2061023836}
-  - {fileID: 1552353787}
 --- !u!82 &1251234022
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7582,6 +7638,7 @@ MonoBehaviour:
   - "Megumin ri\xE9ndose y ejecutando su magia explosiva"
   _anime: {fileID: 2044590496}
   animenum: 0
+  img: []
 --- !u!1 &1617641589
 GameObject:
   m_ObjectHideFlags: 0

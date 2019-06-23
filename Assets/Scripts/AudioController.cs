@@ -14,6 +14,7 @@ public class AudioController : MonoBehaviour {
     /// </summary>
     public void Play()
     {
+        FindAndStopAll();
         audioSource.clip = audios[Random.Range(0, audios.Length)];
         audioSource.Play();
     }

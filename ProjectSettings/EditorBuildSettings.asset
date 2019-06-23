@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/BlackClover.unity
     guid: 9d05fd71c552241428f69056d669b34b
   - enabled: 1
-    path: Assets/Scenes/MiraiNikki.unity
+    path: Assets/Scenes/Mirai Nikki/MiraiNikki.unity
     guid: b16d4cdca25e52d4abead9accca71f1b
+  - enabled: 1
+    path: Assets/Scenes/Mirai Nikki/MN-yuki.unity
+    guid: 7fbf7205cfc24ab43a665538e329dfeb
   m_configObjects: {}

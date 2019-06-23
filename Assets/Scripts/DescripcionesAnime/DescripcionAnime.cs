@@ -9,6 +9,7 @@ public class DescripcionAnime : MonoBehaviour {
     public Text _anime;
     public Text _sinopsis;
     private Vector3 initialPos;
+    public Image[] img;
 	// Use this for initialization
 	void Start () {
         initialPos = _sinopsis.transform.position;
@@ -18,12 +19,6 @@ public class DescripcionAnime : MonoBehaviour {
 	void Update () {
 		
 	}
-
-    public void Cerrar()
-    {
-        _sinopsis.transform.position = initialPos;
-        this.gameObject.SetActive(false);
-    }
 
     public void SetText(int num)
     {
@@ -40,5 +35,22 @@ public class DescripcionAnime : MonoBehaviour {
             default: _sinopsis.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 545.79f);
                 break;
         }
+    }
+    public void Mostrar()
+    {
+        gameObject.SetActive(true);
+        foreach (Image i in img)
+        {
+            i.CrossFadeAlpha(255, 5, false);
+        }
+    }
+    public void Ocultar()
+    {
+        _sinopsis.transform.position = initialPos;
+        foreach (Image i in img)
+        {
+            i.CrossFadeAlpha(1, 5, false);
+        }
+        gameObject.SetActive(false);
     }
 }

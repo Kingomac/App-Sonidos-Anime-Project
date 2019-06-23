@@ -120,53 +120,24 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &263036823
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 263036824}
-  - component: {fileID: 263036825}
-  m_Layer: 0
-  m_Name: SceneChange
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &263036824
+--- !u!4 &263036824 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+    type: 3}
+  m_PrefabInstance: {fileID: 5237894455920928856}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 263036823}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 264.95343, y: 48.517395, z: -190.75}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 968441144}
-  m_Father: {fileID: 295252240}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &263036825
+--- !u!114 &263036825 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 5237894456179046337, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+    type: 3}
+  m_PrefabInstance: {fileID: 5237894455920928856}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 263036823}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 285282d59599f1342bcf143fbb779449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pantalla: {fileID: 968441143}
-  img: {fileID: 0}
-  a: 0
 --- !u!1 &268262294
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,7 +168,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 295252240}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -332,7 +303,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 631318314}
-  - {fileID: 420215448}
   - {fileID: 268262295}
   - {fileID: 2056732813}
   - {fileID: 987822107}
@@ -340,9 +310,10 @@ RectTransform:
   - {fileID: 1931828436}
   - {fileID: 1230444568}
   - {fileID: 1751475028}
+  - {fileID: 420215448}
   - {fileID: 263036824}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -457,7 +428,7 @@ RectTransform:
   - {fileID: 1021050294}
   - {fileID: 2011745741}
   m_Father: {fileID: 295252240}
-  m_RootOrder: 1
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -478,10 +449,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anime:
   - Boku No Hero Academia
-  - Love Live Sunshine
   - Black Clover
   - Kono Subarashii Sekai ni Shukufuku wo!
-  - Love Live School Idol Project
   - One Piece
   - Eromanga-sensei
   - Mirai Nikki
@@ -492,10 +461,6 @@ MonoBehaviour:
     en el h\xE9roe que quiere ser, se apuntar\xE1 a una de las academias de h\xE9roes
     m\xE1s prestigiosas del pa\xEDs: Yueiko. Con la ayuda de su \xEDdolo, All-Might,
     \xBFpodr\xE1 convertirse en un verdadero h\xE9roe? "
-  - "La historia se desarrolla en Uchiura, una ciudad costera situada cerca de Numazu,
-    a 130 kil\xF3metros de Tokio. Con el fin de darle vida al peque\xF1o Instituto
-    al que asisten, que s\xF3lo tiene 100 estudiantes, las nueve protagonistas formar\xE1n
-    un grupo de \u201CSchool Idols\u201D."
   - "La historia de Black Clover nos pone en la piel de un joven llamado Asta, el
     cual quiere convertirse en el mago m\xE1s grande del reino. Sin embargo, hay un
     inconveniente: \xA1no puede usar magia! Por suerte, Asta recibe el grimorio tr\xE9bol
@@ -513,172 +478,127 @@ MonoBehaviour:
     aunque antes de eso tiene que trabajar duro para costearse la comida, la ropa
     y la vivienda. Kazuma quiere vivir en paz, pero la diosa le crea un problema tras
     otro, y entonces el ej\xE9rcito del rey demonio se fija en \xE9l."
-  - Centrada en la Preparatoria Otonokizaka, la cual esta en riesgo de cerrarse debido
-    al numero reducido de estudiantes. Para evitarlo, nueve chicas se volveran idols
-    para promocionar su escuela.
   - "La serie comienza con la ejecuci\xF3n de Gol D. Roger, un hombre conocido como
-    el Rey de los Piratas (\u6D77\u8CCA\u738B Kaizoku\u014D?). Poco antes de su muerte,
-    Roger hace menci\xF3n a su gran tesoro legendario, el \xABOne Piece\xBB (\u30EF\u30F3\u30D4\u30FC\u30B9\u300E\u3072\u3068\u3064\u306A\u304E\u306E\u5927\u79D8\u5B9D\u300F
-    Wan P\u012Bsu?), y a que puede ser tomado por todo aquel que lo desee. Esto marca
+    Rey de los Piratas (\u6D77\u8CCA\u738B Kaizoku\u014D?). Poco antes de su muerte,
+    Roger hace menci\xF3n de su gran tesoro legendario, el \xABOne Piece\xBB (\u30EF\u30F3\u30D4\u30FC\u30B9\u300E\u3072\u3068\u3064\u306A\u304E\u306E\u5927\u79D8\u5B9D\u300F
+    Wan P\u012Bsu?) y que puede ser tomado por todo aquel que lo desee. Esto marca
     el inicio de una era conocida como la Gran Era Pirata (\u5927\u6D77\u8CCA\u6642\u4EE3
-    Daikaizokujidai?). Como resultado, un sin n\xFAmero de piratas zarparon hacia
-    Grand Line con el objetivo de encontrarlo.9\u200B  Veintid\xF3s a\xF1os despu\xE9s
-    de la muerte de Roger, un joven llamado Monkey D. Luffy, inspirado por la admiraci\xF3n
-    que desde su infancia le tiene al poderoso pirata Shanks \xABel Pelirrojo\xBB,9\u200B
-    comienza su aventura desde su hogar en el East Blue para encontrar el One Piece
-    y autoproclamarse como el nuevo Rey de los Piratas. Con el fin de crear y convertirse
-    en el capit\xE1n de una tripulaci\xF3n propia, el muchacho funda la banda de los
-    Sombreros de Paja (\u9EA6\u308F\u3089\u6D77\u8CCA\u56E3\u7BC7 Mugiwara Kaizoku-dan?),
-    siendo el espadach\xEDn Roronoa Zoro el primer nakamaNota 1\u200B10\u200B que
-    Luffy rescata y alista,9\u200B lo que permite que ambos contin\xFAen emprendiendo
-    su viaje hacia el tesoro. Poco despu\xE9s, Nami, una navegante ladrona,11\u200B
-    Usopp, un francotirador mentiroso,12\u200B y Sanji, un cocinero mujeriego se les
-    unen en sus traves\xEDas,13\u200B adem\xE1s de conseguir un barco llamado Going
-    Merry. En sus viajes, la tripulaci\xF3n se enfrenta a varios enemigos poderosos
-    como Buggy el Payaso,14\u200B el capit\xE1n Kuro15\u200B y Don Krieg.16\u200B
-    Despu\xE9s, el protagonista combate contra el temible gyojin Arlong,17\u200B antiguo
-    tripulante de los Piratas del Sol, quien piensa que los humanos son inferiores
-    a los de su especie. El capit\xE1n de los Sombreros de Paja logra derrotarlo y
-    Nami es aceptada oficialmente como uno de sus nakamas, adem\xE1s de que la Marina
-    pone precio a la cabeza de \xE9ste.17\u200B El grupo logra arribar a Loguetown,
-    un pueblo porte\xF1o, y Luffy conoce a un oficial de la Marina llamado Smoker,
-    el cual posee la habilidad de transformarse en humo, y logra capturarlo, pero
-    es detenido por Monkey D. Dragon, el padre de Luffy, aunque \xE9l no lo reconoce.18\u200B
-    Despu\xE9s de llegar finalmente a Grand Line, el grupo conoce a Nefeltari Vivi,
-    una princesa que desea salvar su pa\xEDs, el Reino de Alabasta, de manos de una
-    peligrosa organizaci\xF3n criminal llamada Baroque Works.19\u200B Durante su trayecto
-    hacia Alabasta, los piratas encabezan una revuelta la isla de Drum, donde los
+    Daikaizokujidai?). Como resultado, un sinn\xFAmero de piratas zarparon hacia la
+    Grand Line con el objetivo de encontrarlo.  Veintid\xF3s a\xF1os despu\xE9s de
+    la muerte de Roger, un joven llamado Monkey D. Luffy, inspirado por la admiraci\xF3n
+    que desde su infancia le tiene al poderoso pirata Shanks \xABEl Pelirrojo\xBB,10\u200B
+    comienza su aventura desde su hogar en el mar East Blue para encontrar el One
+    Piece y autoproclamarse a \xE9l mismo como el nuevo Rey de los Piratas. Con el
+    fin de crear y convertirse en el capit\xE1n de una tripulaci\xF3n propia, el muchacho
+    funda la organizaci\xF3n de los Sombreros de Paja (\u9EA6\u308F\u3089\u6D77\u8CCA\u56E3\u7BC7
+    Mugiwara Kaizoku-dan?), siendo el espadach\xEDn Roronoa Zoro el primer nakamaNota
+    1\u200B11\u200B que Luffy rescata y alista,12\u200B lo que permite que ambos contin\xFAen
+    emprendiendo su viaje hacia el tesoro. Poco despu\xE9s, Nami, una navegante ladrona,13\u200B
+    Usopp, un fracotirador mentiroso,14\u200B y Sanji, un cocinero mujeriego se les
+    \xFAnen en sus traves\xEDas,15\u200B adem\xE1s de conseguir un barco llamado el
+    Going Merry. En sus viajes, la tripulaci\xF3n se enfrenta a varios enemigos poderosos
+    como Buggy el Payaso,16\u200B el Capt\xE1n Kuro17\u200B y Don Krieg. Despu\xE9s,
+    el protagonista combate contra el gyojin Arlong,19\u200B antiguo tripulante de
+    los Piratas del Sol, quien piensa que los humanos son inferiores a los individuos
+    de su propia especie. El capit\xE1n de los Sombreros de Paja logra derrotarlo
+    y Nami es aceptada oficialmente como uno de sus nakamas, adem\xE1s de que la Marina
+    pone precio a la cabeza de este.19\u200B El grupo logra arribar a Loguetown, un
+    pueblo porte\xF1o, y Luffy conoce a un oficial de la Marina llamado Smoker, el
+    cual posee la habilidad de transformarse en humo, y logra capturarlo, pero es
+    detenido por Monkey D. Dragon, el padre de Luffy, aunque \xE9l no lo reconoce.20\u200B
+    Despu\xE9s de llegar finalmente a la Grand Line, el grupo conoce a Nefeltari Vivi,
+    una princesa que desea salvar su pa\xEDs, el Reino de Arabasta, de manos de una
+    peligrosa organizaci\xF3n criminal llamada Baroque Works.21\u200B Durante su trayecto
+    hacia Arabasta, los piratas encabezan una revuelta la isla de Drum, donde los
     Sombreros de Paja invitan a un reno antropom\xF3rfico m\xE9dico llamado Tony Tony
-    Chopper a un\xEDrseles al grupo, y \xE9ste acepta.20\u200B  Una vez que la tripulaci\xF3n
-    llega hasta Alabasta, comienzan una serie de batallas contra los Baroque Works
-    y su l\xEDder, el Shichibukai Sir Crocodile. Luffy finalmente derrota a Crocodile
-    y libera Alabasta. Inmediatamente despu\xE9s, Nico Robin, una arque\xF3loga que
-    antes pertenec\xEDa a Baroque Works, se une a la tripulaci\xF3n. Asimismo, conocen
-    a \xABBarbanegra\xBB, alias de Marshal D. Teach, quien tambi\xE9n aspira a convertirse
-    en el Rey de los Piratas. La tripulaci\xF3n viaja hasta una isla flotante llamada
-    Skypea donde, sin querer, se unen a una guerra incipiente entre dos tribus habitantes
-    de dicho lugar, lo que les lleva a enfrentarse al l\xEDder de la isla, Enel, qui\xE9n
-    posee el poder de crear rel\xE1mpagos y electricidad. Luffy logra derrotarlo y,
-    con ello, termina la guerra. Un almirante de la Marina llamado Aokiji se les aparece
-    y les dice que Robin ha estado involucrada en la b\xFAsqueda de unas piedras arcaicas
-    llamadas \xABPoneglyphs\xBB, las cuales fueron creadas por una antigua civilizaci\xF3n
-    en las que se encuentra encriptada la historia del siglo vac\xEDo, que el Gobierno
-    Mundial borr\xF3 del mundo hace 900 a\xF1os. Los Sombreros de Paja llegan a Water
-    7, donde conocen a un cyborg llamado Franky que se dedica a construir barcos;
-    ah\xED mismo, se les informa de que el Going Merry est\xE1 da\xF1ado y no es posible
-    repararlo, lo que causa que Usopp renuncie temporalmente a la tripulaci\xF3n.
-    Sin embargo, el Cipher Pol No. 9, la agencia de inteligencia del Gobierno Mundial,
-    captura a Robin y Franky con el fin de que ellos les revelen informaci\xF3n respecto
-    al uso de los Poneglyphs y las armas ancestrales que \xE9stas puedan contener.
-    Franky logra librarse del Gobierno al quemar los planos que conten\xEDan los dise\xF1os
-    de una de dichas armas, y se une a los Sombreros de Paja para declarle la guerra
+    Chopper a un\xEDrseles al grupo, y este acepta.   Una vez que la tripulaci\xF3n
+    llega hasta de Arabasta, comienzan una serie de batallas contra los Baroque Works
+    y su l\xEDder, el Shichibukai Sir Crocodile.23\u200B Luffy finalmente derrota
+    a Crocodile y libera el reino.24\u200B Inmediatamente despu\xE9s, Nico Robin,
+    una arque\xF3loga, que antes pertenec\xEDa a Baroque Works se une a la tripulaci\xF3n.25\u200B
+    Asimismo, conocen a \xABBarbanegra\xBB, alias de Marshal D. Teach, quien tambi\xE9n
+    aspira a convertirse en el Rey de los Piratas. La tripulaci\xF3n viaja hasta una
+    isla flotante llamada Skypea, donde sin querer, se unen a una guerra insipiente
+    entre dos tribus habitantes de dicho lugar, lo que los lleva a enfrentarse al
+    l\xEDder de la isla, Enel, qui\xE9n posee el poder de crear rel\xE1mpagos y electricidad.27\u200B
+    Luffy logra derrotarlo, y con ello, terminar la guerra.28\u200B De manera sucinta,
+    un almirante de la Marina llamado Aokiji, se les aparece y les dice que Robin
+    ha estado involucrada en la b\xFAsqueda de unas piedras arcaicas llamadas \xABPoneglyphs\xBB,
+    las cuales fueron creadas por una antigua civilizaci\xF3n en las que se encuentra
+    encriptada la historia que el Gobierno Mundial borr\xF3 del mundo hace m\xE1s
+    de 100 a\xF1os.29\u200B Los Sombreros de Paja llegan a Water 7, donde conocen
+    a un cyborg llamado Franky que se dedica a construir barcos; ah\xED mismo, se
+    les informa que el Going Merry est\xE1 da\xF1ado y no es posible repararlo, lo
+    que causa que Usopp renuncie temporalmente a la tripulaci\xF3n.30\u200B Sin embargo,
+    el Cipher Pol No. 9, una agencia de inteligancia del Gobierno Mundial, captura
+    a Robin y Franky con el fin de que ellos les revelen informaci\xF3n respecto al
+    uso de los Poneglyphs y las armas antiguas que estas puedan contener. Franky logra
+    librarse del Gobierno al quemar los planos que conten\xEDan los dise\xF1os de
+    una de dichas armas, y se une a los Sombreros de Paja para declararle la guerra
     al propio Gobierno, lo que resulta en una serie de peleas entre los piratas y
-    los CP9. Al terminar la batalla final contra los agentes, la tripulaci\xF3n logra
-    rescatar a Robin. Asimismo, Franky construye una nueva embarcaci\xF3n, llamada
-    el Thousand Sunny, con el fin de remplazar al perdido Going Merry, y con ello,
-    se une finalmente a los Sombreros de Paja. Despu\xE9s de esto, los piratas se
-    encuentran con un barco fantasma, donde conocen a Brook, un m\xFAsico esquel\xE9tico
-    que fue revivido con una Fruta del Diablo, y adem\xE1s, a quien Gecko Moriah,
-    otro Shichibukai y capit\xE1n del gigantesco barco pirata Thriller Bark, le rob\xF3
-    su sombra. Una vez que los piratas derrotan a Moriah, Brook se les une.  All\xED,
-    los Sombreros de Paja se ven involucrados en una revuelta causada por un tenry\u016Bbito;
-    para terminar con el alboroto, uno de los Shichibukai, Bartholomew Kuma, un cyborg
-    controlado por la Marina, los separa, envi\xE1ndolos a diferentes lugares mediante
-    sus poderes. Mientras tanto, Luffy llega a una isla afrodis\xEDaca llamada Amazon
-    Lily, donde \xFAnicamente habitan mujeres. Una vez que el muchacho se entera de
-    que Portgas D. Ace est\xE1 en peligro, como su hermano del alma que es, va a rescatarlo
-    inmediatamente, recibiendo ayuda de Boa Hancock. Gracias a ella, Luffy se infiltra
-    en la prisi\xF3n de Impel Down, una c\xE1rcel de m\xE1xima seguridad para criminales
-    y piratas, y deber\xE1 enfrentarse a peligrosos enemigos como Magellan, el alcaide
-    de Impel Down, y a Hannyabal, su subordinado; pero a la vez se reencontrar\xE1
-    con antiguos adversarios como Buggy el Payaso, Bon Clay (Mr. 2) y Galdino (Mr.
-    3), estos \xFAltimos dos de Barroque Works y su ex l\xEDder y ex Shichibukai,
-    Crocodile. All\xED Luffy se reencuentra con Marshall D. Teach, el cual revela
-    haber entregado a Ace a la Marina para convertirse en Shichibukai, y tiene un
-    enfrentamiento con Magellan, usuario de la fruta Doku-Doku (veneno-veneno), siendo
-    gravemente envenenado, por lo que Bon Clay decide llevarlo con la \"reina\" Emporio
-    Ivankov, una aparentemente figura legendaria de la c\xE1rcel. Al \"encontrarla\",
-    vemos que es un hombre reina de los okamas del nivel 5.5, alias \"Okamaland\",
-    y un activo del Ej\xE9rcito Revolucionario que est\xE1 esperando a que Monkey
-    D. Dragon lo libere, pero decide ayudar a Luffy por ser su hijo. Luffy llega al
-    nivel 6 finalmente pero por medio de Jinbe, ex Shichibukai encarcelado por negarse
-    a participar en la guerra contra Barbablanca, se entera de que Ace ya fue trasladado
-    a Marineford, por lo que Luffy, tras liberar a Jinbe y a Crocodile, da rienda
-    suelta a un mot\xEDn que termina en un exitoso escape por parte de Luffy. Todos
-    logran llegar al campo de batalla, en donde Luffy se ve cara a cara con los tres
-    almirantes: \"Akainu\" Sakazuki, \"Kizaru\" Borsalino y \"Aokiji\" Kuzan; el ahora
-    comodoro Smoker y la subteniente Tashigi, los aprendices Coby y Helmeppo, y su
-    abuelo y vicealmirante, Monkey D. Garp. Desgraciadamente, Ace y Barbablanca son
-    asesinados en el cl\xEDmax del conflicto, debiendo sacar a Luffy (inconsciente
-    tras el shock por la perdida de su hermano) en una desordenada fuga, en la cual
-    escapan por medio de la intervenci\xF3n improvista de los piratas de Shanks. Luffy
-    despierta en Amazon Lily, donde empieza a montar foll\xF3n por la muerte de su
-    hermano, pero Jinbe lo calma, record\xE1ndole que a\xFAn tiene porque luchar:
-    sus nakamas. Silvers Rayleigh llega a Amazon Lily y se encuentra con Luffy, a
-    quien accede a entrenar durante dos a\xF1os para que est\xE9 en forma para sobrevivir
-    al Nuevo Mundo. Por medio de un mensaje oculto enviado desde Marineford, Luffy
-    dice a su tripulaci\xF3n que se queden en los lugares que est\xE1n y entrenen.
-    \ Finalmente, 2 a\xF1os despu\xE9s, todos se re\xFAnen y parte hacia la isla Gyojin,
-    donde se ven involucrados en un alzamiento de los Nuevos Piratas Gyojin, de parte
-    del capit\xE1n Hody Jones, un gyojin extremista y racista, donde Luffy tiene un
-    primer contacto a trav\xE9s de un den den mushi con la yonkou Big Mom. Tras la
-    batalla contra Hody y sus huestes, los Sombreros de Paja llegan al Nuevo Mundo,
-    anclando en una isla llamada Punk Hazard, donde se enteran que se llevan experimentos
-    sobre el agigantamiento por el ex cient\xEDfico de la Marina Caesar Clown, el
-    cual tambi\xE9n invent\xF3 un arma de gas paralizante llamado \"Shinokuni\", que
-    planea distribuir en el mercado negro. Entre estos acontecimientos, Luffy se encuentra
-    con Trafalgar D. Water Law, Supernova y ahora Shichibukai que salv\xF3 a Luffy
-    (y a Jinbe) de las heridas f\xEDsicas de la guerra de Marineford, el cual le propone
-    una alianza pirata para acabar con uno de los Cuatro Emperadores. Luffy derrota
-    a Caesar Clown y ambos departan hacia Dressrosa donde, seg\xFAn Law, esta la f\xE1brica
-    de frutas del diablo artificiales SMILE. En Dressrosa les aguarda Donquixote Doflamingo,
-    otro miembro de los Shichibukai, junto con su banda de piratas, a los cuales,
-    con ayuda de los guerreros locales, van derrotando. Despu\xE9s de la derrota de
-    Doflamingo, los muchachos llegan a Zou, a donde han ido Nami, Chopper, Brook,
-    Sanji y Momonosuke (con Caesar como reh\xE9n) tras que la nave de Big Mom los
-    persiguiese. Luffy y el resto se enteran de que Sanji fue secuestrado, porque
-    lo han puesto en una boda arreglada con la hija de la Yonkou, Charlotte Pudding.
-    Ante esto, los Sombreros de Paja deciden infiltrarse en el reino de la Emperatriz
-    Pirata con el fin de recuperar a su nakama. Tambi\xE9n conocen a los minks y a
-    sus gobernantes, Inuarashi y Nekomamushi, los cuales tienen la orden de resguardar
-    a un guerrero ninja de Wanokuni, llamado Raizo y por el que casi pierden la vida
-    a manos de los piratas del Emperador Pirata Kaido, que lo buscaban. Los l\xEDderes
-    minks revelan un Poneglyph Rojo, el cual dice una parte acerca de como llegar
-    a Raftel, la isla donde se encuentra el One Piece. Tras llegar a Totto Land, dominio
-    de la Emperatriz, Luffy logra encontrarse con Sanji, el cual, coaccionado por
-    su familia, decide ignorar a sus compa\xF1eros y marcharse con el fin de que no
-    los da\xF1e Big Mom. Despues de esto Luffy es encarcelado junto con Nami en el
-    Whole Cake Chateau, pero Jinbe los rescata, Luffy se reencuentra con Sanji para
-    despues reunirse con Bege, donde organizan un complot contra Big Mom, el motin
-    sale mal y los Mugiwaras deben escapar, a su vez, Charlotte Chiffon (hermana gemela
-    de Lola), Pudding y Sanji preparan un pastel de bodas para detener a Big Mom que
-    ha entrado en otro de sus famosos trastornos alimenticios y no parar\xE1 hasta
-    obtener el objeto blanco de su gula (en este caso el pastel de bodas). Con la
-    intervenci\xF3n del Germa 66 y de los Piratas del Sol, los Piratas de Luffy escapan
-    del territorio de la Emperatriz, exceptuando Jinbe que confirma pertenecer a la
-    banda de Luffy pero s\xE9 sacrifica para que su capit\xE1n pueda escapar y a\xFAn
-    est\xE1 en paradero desconocido, noticia que Morgans (director del News Coo, peri\xF3dico
-    de One Piece) publica en el peri\xF3dico mundial, por lo cual es llamado <<El
-    Quinto Emperador>>, y como es de esperarse con Luffy, la noticia esparce el revuelo
-    en todo el mundo. Mientras en Mary Geoise, el Reverie comienza con las familias
-    reales de Alabasta, la Isla Gyojin y Dressrosa en el evento, adem\xE1s de que
-    los Revolucionarios est\xE1n en la Tierra Sagrada para rescatar a Bartholomew
-    Kuma, quien fue convertido en esclavo para la diversi\xF3n de los Tenryuubitos.
-    Posteriormente, el noble mundial Charlos intenta capturar a Shirahoshi pero el
-    noble que hab\xEDa sido salvado por la Reina Otohime en el pasado, Mjosgard Donquixote,
-    aparece para controlar la situaci\xF3n debido a la deuda que tiene con Otohime
-    por salvarle en el pasado. Dentro del palacio de Mary Geoise, Los Cinco Ancianos
-    dirigentes del Gobierno Mundial estan reunidos secretamente con Shanks para hablar
-    de \"cierto pirata\". Cuando aparecen para iniciar el Reverie, aparece un misterioso
-    ser llamado \"Im\" que parece ser aquel que esta por encima de todo el Gobierno
-    Mundial, como para que los Cinco Ancianos le tengan respeto y se arrodillen ante
-    \xE9l. Movi\xE9ndonos a el Pa\xEDs de Wano, Usopp, Franky, Robin y Zoro est\xE1n
-    ocultos y disfrazados. Por otro lado, el espadach\xEDn de los Mugiwara ha sido
-    arrestado por supuestamente ser el asesino de Ryuuma (el samurai considerado h\xE9roe
-    de Wano) y es obligado a suicidarse pero Zoro logra escapar y a la vez acabar
-    con la vida del verdadero criminal aunque destruye el palacio en el que estaba,
-    y se disculpa con Kin'emon por causar revuelo.Despu\xE9s de eso se encuentra con
-    Luffy. "
+    los CP9.31\u200B Al terminar la batalla final contra los agentes, la tripulaci\xF3n
+    logra rescatar a Robin. Asimismo, Franky construye una nueva embarcaci\xF3n llamada
+    el Thousand Sunny, con el fin de remplazar al perdido Going Merry, y con ello
+    \xE9l se une finalmente a los Sombreros de Paja.32\u200B Despu\xE9s de eso, los
+    piratas se encuentran con un barco fantasma, donde conocen a Brook, un m\xFAsico
+    esquel\xE9tico que fue revivido con una Fruta del Diablo, y adem\xE1s, a quien
+    Gecko Moriah, otro Shichibukai y capit\xE1n del gigantesco barco pirata Thriller
+    Bark, le rob\xF3 su sombra.33\u200B Una vez que los piratas derrotan a Moriah,
+    Brook se les une.  Despu\xE9s de llegar al Archipi\xE9lago de Sabaody, la tripulaci\xF3n
+    se prepara para ingresar al Nuevo Mundo, la segunda mitad de la Grand Line. Mientras
+    est\xE1n ah\xED, ellos se hacen amigos de Silvers Rayleigh, el ex-vicecapit\xE1n
+    de la tripulaci\xF3n de los piratas de Roger, y le piden que recubra su barco
+    para que puedan atravesar la Red Line por medio del subsuelo oce\xE1nico.35\u200B
+    Ah\xED, los Sombreros de Paja se ven involucrados en una revuelta causada por
+    un noble mundial; para terminar con el alboroto, uno de los Shichibukai, Bartholomew
+    Kuma un cyborg controlado por la Marina, los separa envi\xE1ndolos a diferentes
+    lugares mediante sus poderes.37\u200B Mientras tanto, Luffy llega a una isla afrodis\xEDaca
+    llamada Amazon Lily, donde \xFAnicamente la habitan mujeres.38\u200B Una vez que
+    el muchacho se entera de que Portgas D. Ace, el hijo de Gol D. Roger y hermano
+    adoptivo suyo, se encuentra prisionero en Impel Down, Luffy emprende un viaje
+    para liberarlo, logrando de paso soltar a otros prisioneros, como al gyojin Jimbei
+    y viejos enemigos.\u200B Sin embargo, el protagonista se da cuenta de que su hermano
+    ahora est\xE1 en Marineford para ser ejecutado por soldados de la Marina. En cuanto
+    \xE9l llega, una guerra estalla entre las fuerzas de la Marina, y la tripulaci\xF3n
+    del renombrado Edward Newgate, mundialmente conocido como \xABBarbablanca\xBB.40\u200B
+    En medio del caos y del cl\xEDmax de la batalla, Ace y Barbablanca son asesinados.41\u200B
+    Poco despu\xE9s, se revela que a petici\xF3n de Rayleigh, Luffy y sus nakamas
+    tienen que pasar por un intenso r\xE9gimen de entrenamiento, estando algunos de
+    ellos bajo la supervisi\xF3n de personajes importantes.42\u200B  Dos a\xF1os despu\xE9s,
+    la tripulaci\xF3n se reagrupa en el Archip\xE9lago de Sabaody, fijando como destino
+    la Isla Gyojin y despu\xE9s penetrar en el Nuevo Mundo.43\u200B En ese momento,
+    un grupo sectario de gyojin aparece, alegando que su especie es superior a la
+    humana, causando un golpe de estado para decidir el futuro de la isla. Sin embargo,
+    los Sombrero de Paja derrotan a los Nuevos Piratas Gyojin, salvando indirectamente
+    a dicho territorio.44\u200B Los protagonistas dejan el lugar y arriban al Nuevo
+    Mundo, no sin antes confrontar a uno de los Yonk\u014D, Charlotte \xABBig Mom\xBB
+    Linlin. Llegando a la isla de Punk Hazard, el grupo se encuentra con un viejo
+    conocido y reci\xE9n nombrado Shichibukai, Trafalgar Law, con quien pactan una
+    alianza para derrocar a Kaid\u014D, otro de los Yonk\u014D.45\u200B La alianza
+    se ve r\xE1pidamente entrometida en una batalla contra el cient\xEDfico Caesar
+    Clown, el responsable del clima y destrucci\xF3n parcial de Punk Hazard dos a\xF1os
+    atr\xE1s.\u200B Despu\xE9s de ser derrotado, la alianza se moviliza hacia Dressrosa,
+    un reino dominado por el Shichibukai Donquixote Doflamingo, qui\xE9n secretamente
+    controla un mercado negro de Frutas del Diablo artificiales, creadas a partir
+    del qu\xEDmico \xABSmile\xBB.47\u200B Una vez ah\xED, Luffy se inscribe en una
+    competici\xF3n cuyo premio por llegar al primer lugar es la fruta Mera-Mera, qui\xE9n
+    anteriormente pertenec\xEDa a su fallecido hermano Ace; sin embargo, su otro hermano
+    adoptivo, Sabo, se da a conocer a Luffy, quien desconf\xEDa en un principio de
+    \xE9l pues lo cre\xEDa muerto tambi\xE9n, pero despu\xE9s le da su lugar en el
+    torneo para que sea \xE9l quien gane el premio mientras se dedica a salvar a sus
+    nakama del ataque de la familia Donquixote.48\u200B Despu\xE9s de que el Shichibukai
+    fuera derrotado por la tripulaci\xF3n, la Marina acuerda dejar en silencio los
+    incidentes, y deciden convocar a una reuni\xF3n con todos los reinos afiliados
+    al Gobierno Mundial.49\u200B Poco despu\xE9s, los Sombrero de Paja se dividen,
+    estando separados en un lapso de 2 d\xEDas, pues el nuevo integrante llamado Kin'emon,
+    quien se une a ellos desde Punk Hazard, les dice que deben encontrar a su amigo
+    Raiz\u014D para cumplir una misi\xF3n especial quien se encuentra en una \xABisla
+    fantasma\xBB.50\u200B Sin embargo, una vez que el grupo se reagrupa sobre un elefante
+    arcano denominado Zou\u2014que es d\xF3nde se encuentra Raiz\u014D y lo habitan
+    seres antropom\xF3rficos capaces de hablar llamados Mink; all\xED descubren que
+    Sanji ha desaparecido.51\u200B Mientras tanto, uno de los generales de Kaid\u014D
+    ataca al animal, dej\xE1ndolos con las opciones de realizar una ofensiva o buscar
+    directamente al cocinero."
   - "Masamune Izumi es un estudiante de instituto adem\xE1s de un autor de novelas
     ligeras con una hermana, Sagiri Izumi. Sagiri es una hikikomori que no sale que
     su cuarto y a la que Masamune tiene que prepararle la comida a diario cuando \xE9sta
@@ -702,6 +622,8 @@ MonoBehaviour:
     vida contra los poseedores de otros diarios similares."
   _anime: {fileID: 639277628}
   _sinopsis: {fileID: 1586471555}
+  img:
+  - {fileID: 533097438}
 --- !u!1 &502174905
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,6 +636,8 @@ GameObject:
   - component: {fileID: 502174909}
   - component: {fileID: 502174908}
   - component: {fileID: 502174907}
+  - component: {fileID: 502174911}
+  - component: {fileID: 502174910}
   m_Layer: 5
   m_Name: OnePiece
   m_TagString: Untagged
@@ -733,7 +657,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 295252240}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -834,6 +758,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502174905}
   m_CullTransparentMesh: 0
+--- !u!114 &502174910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502174905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40081deb39eebb40a221926aebfb3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pantalla: {fileID: 420215447}
+  tiempoMantenerPulsado: 2.03
+  animeNum: 3
+--- !u!114 &502174911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502174905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b935c7aa7779944a8a02037d31b5b89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pressed: 0
 --- !u!1 &533097436
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,14 +836,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.69411767}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.02745098}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f6afe5fe342522f4186427b32640152d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -908,105 +860,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533097436}
   m_CullTransparentMesh: 0
---- !u!1 &555493585
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 555493586}
-  - component: {fileID: 555493588}
-  - component: {fileID: 555493587}
-  m_Layer: 0
-  m_Name: kazuma_0000_Capa-19
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &555493586
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555493585}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 39.131836, y: -313, z: 5}
-  m_LocalScale: {x: 223.9418, y: 223.9418, z: 223.9418}
-  m_Children: []
-  m_Father: {fileID: 968441144}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &555493587
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555493585}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7db4a4b78bcf11c4196dee54d640a6bd, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!212 &555493588
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555493585}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9b078e598c513b242acbf0611e4262f4, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.08, y: 2.22}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &631318313
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,8 +968,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -164.9, y: 340}
-  m_SizeDelta: {x: 863.1, y: 78.3}
+  m_AnchoredPosition: {x: -158.7, y: 331.8}
+  m_SizeDelta: {x: 850.8, y: 61.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &639277628
 MonoBehaviour:
@@ -1160,38 +1013,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 639277626}
   m_CullTransparentMesh: 0
---- !u!1 &968441143
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 968441144}
-  m_Layer: 0
-  m_Name: PantallaDeCarga
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &968441144
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 968441143}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -329.95343, y: 75.482605, z: 59.089127}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2048487430}
-  - {fileID: 555493586}
-  m_Father: {fileID: 263036824}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &987822106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,6 +1025,8 @@ GameObject:
   - component: {fileID: 987822110}
   - component: {fileID: 987822109}
   - component: {fileID: 987822108}
+  - component: {fileID: 987822112}
+  - component: {fileID: 987822111}
   m_Layer: 5
   m_Name: Konosuba
   m_TagString: Untagged
@@ -1223,7 +1046,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 295252240}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1324,6 +1147,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 987822106}
   m_CullTransparentMesh: 0
+--- !u!114 &987822111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987822106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40081deb39eebb40a221926aebfb3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pantalla: {fileID: 420215447}
+  tiempoMantenerPulsado: 2.03
+  animeNum: 2
+--- !u!114 &987822112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987822106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b935c7aa7779944a8a02037d31b5b89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pressed: 0
 --- !u!1 &1021050293
 GameObject:
   m_ObjectHideFlags: 0
@@ -1360,7 +1211,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 333.5, y: 349.8}
+  m_AnchoredPosition: {x: 298.4, y: 342.05}
   m_SizeDelta: {x: 103.1, y: 82.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1021050295
@@ -1407,7 +1258,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 420215449}
-        m_MethodName: Cerrar
+        m_MethodName: Ocultar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1439,8 +1290,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: e38538551a3b5734da3463666fd0b579, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1599,6 +1450,8 @@ GameObject:
   - component: {fileID: 1230444571}
   - component: {fileID: 1230444570}
   - component: {fileID: 1230444569}
+  - component: {fileID: 1230444573}
+  - component: {fileID: 1230444572}
   m_Layer: 5
   m_Name: BlackClover
   m_TagString: Untagged
@@ -1618,7 +1471,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 295252240}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1719,6 +1572,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230444567}
   m_CullTransparentMesh: 0
+--- !u!114 &1230444572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230444567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40081deb39eebb40a221926aebfb3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pantalla: {fileID: 420215447}
+  tiempoMantenerPulsado: 2.03
+  animeNum: 1
+--- !u!114 &1230444573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230444567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b935c7aa7779944a8a02037d31b5b89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pressed: 0
 --- !u!1 &1275030024
 GameObject:
   m_ObjectHideFlags: 0
@@ -1915,7 +1796,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.900711, y: -10242.5}
+  m_AnchoredPosition: {x: -2.900711, y: -3485.2502}
   m_SizeDelta: {x: 910, y: 7514.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1586471555
@@ -1972,6 +1853,8 @@ GameObject:
   - component: {fileID: 1751475031}
   - component: {fileID: 1751475030}
   - component: {fileID: 1751475029}
+  - component: {fileID: 1751475033}
+  - component: {fileID: 1751475032}
   m_Layer: 5
   m_Name: EromangaSensei
   m_TagString: Untagged
@@ -1991,7 +1874,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 295252240}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2092,6 +1975,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1751475027}
   m_CullTransparentMesh: 0
+--- !u!114 &1751475032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751475027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40081deb39eebb40a221926aebfb3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pantalla: {fileID: 420215447}
+  tiempoMantenerPulsado: 2.03
+  animeNum: 4
+--- !u!114 &1751475033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751475027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b935c7aa7779944a8a02037d31b5b89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pressed: 0
 --- !u!1 &1931828435
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,6 +2015,8 @@ GameObject:
   - component: {fileID: 1931828439}
   - component: {fileID: 1931828438}
   - component: {fileID: 1931828437}
+  - component: {fileID: 1931828441}
+  - component: {fileID: 1931828440}
   m_Layer: 5
   m_Name: MiraiNikki
   m_TagString: Untagged
@@ -2123,7 +2036,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 295252240}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2224,6 +2137,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931828435}
   m_CullTransparentMesh: 0
+--- !u!114 &1931828440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931828435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40081deb39eebb40a221926aebfb3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pantalla: {fileID: 420215447}
+  tiempoMantenerPulsado: 2.03
+  animeNum: 5
+--- !u!114 &1931828441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931828435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b935c7aa7779944a8a02037d31b5b89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pressed: 0
 --- !u!1 &2011745740
 GameObject:
   m_ObjectHideFlags: 0
@@ -2347,80 +2288,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011745740}
   m_CullTransparentMesh: 0
---- !u!1 &2048487429
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2048487430}
-  - component: {fileID: 2048487432}
-  - component: {fileID: 2048487431}
-  m_Layer: 0
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2048487430
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048487429}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 968441144}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 65.2, y: -145.7}
-  m_SizeDelta: {x: 1082.6, y: 1956.6}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2048487431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048487429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.007843138}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 0918e792ee2dc9e4bb272da7849af7c0, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
---- !u!222 &2048487432
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048487429}
-  m_CullTransparentMesh: 0
 --- !u!1 &2056732812
 GameObject:
   m_ObjectHideFlags: 0
@@ -2433,6 +2300,8 @@ GameObject:
   - component: {fileID: 2056732816}
   - component: {fileID: 2056732815}
   - component: {fileID: 2056732814}
+  - component: {fileID: 2056732818}
+  - component: {fileID: 2056732817}
   m_Layer: 5
   m_Name: MyHeroAcademia
   m_TagString: Untagged
@@ -2452,7 +2321,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 295252240}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2553,6 +2422,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2056732812}
   m_CullTransparentMesh: 0
+--- !u!114 &2056732817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056732812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40081deb39eebb40a221926aebfb3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pantalla: {fileID: 420215447}
+  tiempoMantenerPulsado: 2.03
+  animeNum: 0
+--- !u!114 &2056732818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056732812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b935c7aa7779944a8a02037d31b5b89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pressed: 0
 --- !u!1 &2121209736
 GameObject:
   m_ObjectHideFlags: 0
@@ -2617,5 +2514,74 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5237894455920928856
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 295252240}
+    m_Modifications:
+    - target: {fileID: 5237894456179046351, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_Name
+      value: SceneChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 264.95343
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 48.517395
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -190.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 89b0881ddcbc5d24e966a9d6b52514f9, type: 3}

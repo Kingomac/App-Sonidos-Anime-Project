@@ -712,16 +712,6 @@ MonoBehaviour:
   Pantalla: {fileID: 543446192}
   tiempoMantenerPulsado: 2
   animeNum: 0
-  velocidadAnimacion: 0.1
-  fondos:
-  - {fileID: 1517421261}
-  - {fileID: 1559565629}
-  - {fileID: 2116065672}
-  - {fileID: 427547140}
-  textos:
-  - {fileID: 970114732}
-  - {fileID: 1458183524}
-  - {fileID: 1528289253}
 --- !u!114 &30147085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2889,6 +2879,7 @@ MonoBehaviour:
     tambi\xE9n hay de 2 de Elf, 1 de Masamune y 1 de Muramasa. En total 15"
   _anime: {fileID: 970114732}
   animenum: 0
+  img: []
 --- !u!1 &572105996
 GameObject:
   m_ObjectHideFlags: 0
@@ -4945,16 +4936,6 @@ MonoBehaviour:
   Pantalla: {fileID: 543446192}
   tiempoMantenerPulsado: 2
   animeNum: 1
-  velocidadAnimacion: 0.1
-  fondos:
-  - {fileID: 1517421261}
-  - {fileID: 1559565629}
-  - {fileID: 2116065672}
-  - {fileID: 427547140}
-  textos:
-  - {fileID: 970114732}
-  - {fileID: 1458183524}
-  - {fileID: 1528289253}
 --- !u!114 &881592160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8810,6 +8791,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595046041}
   m_CullTransparentMesh: 0
+--- !u!1001 &1629655276
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2083944620}
+    m_Modifications:
+    - target: {fileID: 5237894456179046351, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_Name
+      value: SceneChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 264.95343
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 48.517395
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -190.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894456348153184, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 323
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 89b0881ddcbc5d24e966a9d6b52514f9, type: 3}
+--- !u!4 &1629655277 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1629655276}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1637130775
 GameObject:
   m_ObjectHideFlags: 0
@@ -10560,6 +10621,7 @@ RectTransform:
   - {fileID: 543446193}
   - {fileID: 1164026487}
   - {fileID: 2104017395}
+  - {fileID: 1629655277}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
