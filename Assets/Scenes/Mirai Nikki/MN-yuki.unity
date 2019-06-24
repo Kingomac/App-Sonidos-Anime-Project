@@ -230,6 +230,7 @@ GameObject:
   - component: {fileID: 373793018}
   - component: {fileID: 373793017}
   - component: {fileID: 373793016}
+  - component: {fileID: 373793020}
   m_Layer: 5
   m_Name: yuki1
   m_TagString: Untagged
@@ -363,6 +364,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373793014}
   m_CullTransparentMesh: 0
+--- !u!114 &373793020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373793014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoEspera: 2
+  link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/mirainikki/yuki/12.mp3
 --- !u!1 &505255226
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,6 +550,7 @@ GameObject:
   - component: {fileID: 919228193}
   - component: {fileID: 919228192}
   - component: {fileID: 919228191}
+  - component: {fileID: 919228195}
   m_Layer: 5
   m_Name: yuki2
   m_TagString: Untagged
@@ -668,6 +684,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919228189}
   m_CullTransparentMesh: 0
+--- !u!114 &919228195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919228189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoEspera: 2
+  link: https://github.com/Kingomac/AppSonidosAnime/blob/master/sounds/mirainikki/yuki/13.mp3
 --- !u!1 &951936374
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,6 +986,7 @@ GameObject:
   - component: {fileID: 1077071849}
   - component: {fileID: 1077071848}
   - component: {fileID: 1077071847}
+  - component: {fileID: 1077071851}
   m_Layer: 5
   m_Name: yuki0
   m_TagString: Untagged
@@ -1089,6 +1120,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077071845}
   m_CullTransparentMesh: 0
+--- !u!114 &1077071851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077071845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoEspera: 2
+  link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/mirainikki/yuki/0.mp3
 --- !u!1001 &1278039254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1480,6 +1525,7 @@ GameObject:
   - component: {fileID: 2047644512}
   - component: {fileID: 2047644511}
   - component: {fileID: 2047644510}
+  - component: {fileID: 2047644514}
   m_Layer: 5
   m_Name: yuki3
   m_TagString: Untagged
@@ -1613,6 +1659,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2047644508}
   m_CullTransparentMesh: 0
+--- !u!114 &2047644514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047644508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoEspera: 2
+  link: https://github.com/Kingomac/AppSonidosAnime/blob/master/sounds/mirainikki/yuki/18.mp3
 --- !u!1001 &2142128496
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -514,11 +514,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5237894456348153199, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5237894457432397918, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -539,6 +534,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 1976.3
       objectReference: {fileID: 0}
+    - target: {fileID: 5237894456348153199, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5237894457432397919, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
         type: 3}
       propertyPath: m_Color.a
@@ -558,10 +558,10 @@ GameObject:
   - component: {fileID: 1695874284}
   - component: {fileID: 1695874283}
   - component: {fileID: 1695874282}
-  - component: {fileID: 1695874281}
   - component: {fileID: 1695874286}
   - component: {fileID: 1695874285}
   - component: {fileID: 1695874280}
+  - component: {fileID: 1695874281}
   m_Layer: 5
   m_Name: PhoneDiary
   m_TagString: SoundButton
@@ -613,12 +613,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1695874278}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c40081deb39eebb40a221926aebfb3ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 86262609a7334064c8a12bdcd0a49807, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Pantalla: {fileID: 0}
-  tiempoMantenerPulsado: 2
-  animeNum: 1
+  tiempoClick: 2
+  scene: MN-phoneDiary
 --- !u!114 &1695874282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -680,7 +679,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
