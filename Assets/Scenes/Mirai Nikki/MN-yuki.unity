@@ -697,7 +697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoEspera: 2
-  link: https://github.com/Kingomac/AppSonidosAnime/blob/master/sounds/mirainikki/yuki/13.mp3
+  link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/mirainikki/yuki/13.mp3
 --- !u!1 &951936374
 GameObject:
   m_ObjectHideFlags: 0
@@ -1672,7 +1672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoEspera: 2
-  link: https://github.com/Kingomac/AppSonidosAnime/blob/master/sounds/mirainikki/yuki/18.mp3
+  link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/mirainikki/yuki/18.mp3
 --- !u!1001 &2142128496
 PrefabInstance:
   m_ObjectHideFlags: 0

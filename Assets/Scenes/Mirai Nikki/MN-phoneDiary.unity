@@ -984,7 +984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoEspera: 2
-  link: https://github.com/Kingomac/AppSonidosAnime/blob/master/sounds/mirainikki/future-diary/0.mp3
+  link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/mirainikki/future-diary/0.mp3
 --- !u!114 &1145462436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1302,7 +1302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoEspera: 2
-  link: https://github.com/Kingomac/AppSonidosAnime/blob/master/sounds/mirainikki/future-diary/1.mp3
+  link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/mirainikki/future-diary/1.mp3
 --- !u!114 &1750680683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1463,7 +1463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoEspera: 2
-  link: https://github.com/Kingomac/AppSonidosAnime/blob/master/sounds/mirainikki/future-diary/2.mp3
+  link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/mirainikki/future-diary/2.mp3
 --- !u!114 &1870832438
 MonoBehaviour:
   m_ObjectHideFlags: 0

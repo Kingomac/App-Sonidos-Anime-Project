@@ -18,8 +18,11 @@ EditorBuildSettings:
     path: Assets/Scenes/EromangaSensei.unity
     guid: 7449fa93828d9e941b13a13682783885
   - enabled: 1
-    path: Assets/Scenes/BokuNoHero.unity
+    path: Assets/Scenes/BokuNoHero/BokuNoHero.unity
     guid: aa89bed793072ce41995bf8d037fe0e3
+  - enabled: 1
+    path: Assets/Scenes/BokuNoHero/BNH-DekuSmash.unity
+    guid: 01bb579686558ca4ea539ba3613287c2
   - enabled: 1
     path: Assets/Scenes/BlackClover.unity
     guid: 9d05fd71c552241428f69056d669b34b

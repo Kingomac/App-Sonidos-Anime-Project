@@ -41,18 +41,17 @@ public class ShareSound : MonoBehaviour
     }
     private IEnumerator Compartir()
     {
+        Debug.Log(link);
         UnityWebRequest www = UnityWebRequest.Get(link);
-        string result = Path.Combine(Application.temporaryCachePath, $"{num}.mp3");
         yield return www.SendWebRequest();
         if(www.isNetworkError || www.isHttpError)
         {
             Debug.Log("Network error: " + www.error);
         }
-        if (www.isDone)
-        {
-            File.WriteAllBytes(result, www.downloadHandler.data);
-            NatShare.ShareMedia(result);
-            Debug.Log("File downloaded in: " + result);
-        }
+        while (!www.downloadHandler.isDone) yield return null;
+        string result = Path.Combine(Application.temporaryCachePath, $"{num}.mp3");
+        File.WriteAllBytes(result, www.downloadHandler.data);
+        NatShare.ShareMedia(result);
+        Debug.Log("File downloaded in: " + result);
     }
 }

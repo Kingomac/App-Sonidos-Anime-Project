@@ -7722,9 +7722,9 @@ GameObject:
   - component: {fileID: 471240576}
   - component: {fileID: 471240575}
   - component: {fileID: 471240578}
-  - component: {fileID: 471240580}
   - component: {fileID: 471240579}
   - component: {fileID: 471240581}
+  - component: {fileID: 471240580}
   m_Layer: 5
   m_Name: BakugouRemix
   m_TagString: SoundButton
@@ -7963,12 +7963,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 471240573}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c40081deb39eebb40a221926aebfb3ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 86262609a7334064c8a12bdcd0a49807, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Pantalla: {fileID: 899737852}
-  tiempoMantenerPulsado: 2
-  animeNum: 0
+  tiempoClick: 1.75
+  scene: 
 --- !u!114 &471240581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13432,6 +13431,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7634333351455769514, guid: be3f9f6af60a7f14b9913b4859d1ec2b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114193058678841790, guid: be3f9f6af60a7f14b9913b4859d1ec2b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -13441,11 +13445,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Main
-      objectReference: {fileID: 0}
-    - target: {fileID: 7634333351455769514, guid: be3f9f6af60a7f14b9913b4859d1ec2b,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be3f9f6af60a7f14b9913b4859d1ec2b, type: 3}
@@ -18874,8 +18873,8 @@ GameObject:
   - component: {fileID: 1080499217}
   - component: {fileID: 1080499213}
   - component: {fileID: 1080499196}
-  - component: {fileID: 1080499221}
   - component: {fileID: 1080499220}
+  - component: {fileID: 1080499194}
   m_Layer: 5
   m_Name: DekuSmash
   m_TagString: SoundButton
@@ -18903,6 +18902,20 @@ RectTransform:
   m_AnchoredPosition: {x: 30.559998, y: 212.22046}
   m_SizeDelta: {x: 354, y: 425}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1080499194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080499192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86262609a7334064c8a12bdcd0a49807, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoClick: 1.75
+  scene: BNH-DekuSmash
 --- !u!82 &1080499196
 AudioSource:
   m_ObjectHideFlags: 0
@@ -19140,21 +19153,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pressed: 0
---- !u!114 &1080499221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080499192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c40081deb39eebb40a221926aebfb3ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Pantalla: {fileID: 899737852}
-  tiempoMantenerPulsado: 2
-  animeNum: 3
 --- !u!1 &1087975569
 GameObject:
   m_ObjectHideFlags: 0
@@ -23381,6 +23379,7 @@ GameObject:
   - component: {fileID: 1373916409}
   - component: {fileID: 1373916410}
   - component: {fileID: 1373916402}
+  - component: {fileID: 1373916403}
   m_Layer: 5
   m_Name: AllMightSmash!
   m_TagString: SoundButton
@@ -23421,6 +23420,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pressed: 0
+--- !u!114 &1373916403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373916400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86262609a7334064c8a12bdcd0a49807, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoClick: 1.75
+  scene: 
 --- !u!114 &1373916409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30204,8 +30217,8 @@ GameObject:
   - component: {fileID: 1825457945}
   - component: {fileID: 1825457942}
   - component: {fileID: 1825457941}
-  - component: {fileID: 1825457951}
   - component: {fileID: 1825457950}
+  - component: {fileID: 1825457922}
   m_Layer: 5
   m_Name: DEKU!
   m_TagString: SoundButton
@@ -30233,6 +30246,20 @@ RectTransform:
   m_AnchoredPosition: {x: 339.87, y: 212.22046}
   m_SizeDelta: {x: 354, y: 425}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1825457922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825457920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86262609a7334064c8a12bdcd0a49807, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoClick: 1.75
+  scene: 
 --- !u!82 &1825457941
 AudioSource:
   m_ObjectHideFlags: 0
@@ -30652,21 +30679,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pressed: 0
---- !u!114 &1825457951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825457920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c40081deb39eebb40a221926aebfb3ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Pantalla: {fileID: 899737852}
-  tiempoMantenerPulsado: 2
-  animeNum: 4
 --- !u!1 &1825996011
 GameObject:
   m_ObjectHideFlags: 0
@@ -33780,6 +33792,7 @@ GameObject:
   - component: {fileID: 1984385654}
   - component: {fileID: 1984385653}
   - component: {fileID: 1984385647}
+  - component: {fileID: 1984385648}
   m_Layer: 5
   m_Name: Shine
   m_TagString: SoundButton
@@ -33919,6 +33932,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1984385648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984385644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86262609a7334064c8a12bdcd0a49807, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoClick: 1.75
+  scene: 
 --- !u!114 &1984385650
 MonoBehaviour:
   m_ObjectHideFlags: 0
