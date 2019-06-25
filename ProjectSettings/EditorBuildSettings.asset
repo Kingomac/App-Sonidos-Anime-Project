@@ -36,8 +36,11 @@ EditorBuildSettings:
     path: Assets/Scenes/BokuNoHero/BHN-Shine.unity
     guid: 4d51890cc6f6ae74a9c092d7b69454a3
   - enabled: 1
-    path: Assets/Scenes/BlackClover.unity
+    path: Assets/Scenes/Black Clover/BlackClover.unity
     guid: 9d05fd71c552241428f69056d669b34b
+  - enabled: 1
+    path: Assets/Scenes/Black Clover/BC-Fuja.unity
+    guid: bb8e9fbf1c167b549ab3ac78f4bd4f5b
   - enabled: 1
     path: Assets/Scenes/Mirai Nikki/MiraiNikki.unity
     guid: b16d4cdca25e52d4abead9accca71f1b
