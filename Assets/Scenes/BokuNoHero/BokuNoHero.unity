@@ -7963,11 +7963,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 471240573}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86262609a7334064c8a12bdcd0a49807, type: 3}
+  m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoClick: 1.75
-  scene: 
+  tiempoEspera: 0
+  link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/bokunohero/bakugou/Remix.mp3
 --- !u!114 &471240581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23433,7 +23433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoClick: 1.75
-  scene: 
+  scene: BHN-AllMight
 --- !u!114 &1373916409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30216,7 +30216,6 @@ GameObject:
   - component: {fileID: 1825457943}
   - component: {fileID: 1825457945}
   - component: {fileID: 1825457942}
-  - component: {fileID: 1825457941}
   - component: {fileID: 1825457950}
   - component: {fileID: 1825457922}
   m_Layer: 5
@@ -30259,103 +30258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoClick: 1.75
-  scene: 
---- !u!82 &1825457941
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825457920}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e64ed4e4c7f4cf54186769ab77a1e1d5, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  scene: BHN-Deku
 --- !u!82 &1825457942
 AudioSource:
   m_ObjectHideFlags: 0
@@ -30475,7 +30378,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e14fafe8a8ae8dd42ac6c17748d42900, type: 3}
   - {fileID: 8300000, guid: 2af892807ca040f4487ed802117b5dcf, type: 3}
   - {fileID: 8300000, guid: ff634f4cd198890459b137164194c74d, type: 3}
-  - {fileID: 8300000, guid: faa33971205bc6d4cb91cfe88acb222e, type: 3}
   - {fileID: 8300000, guid: 38cce7212295881478e07966e9bb6209, type: 3}
 --- !u!82 &1825457945
 AudioSource:
@@ -33945,7 +33847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoClick: 1.75
-  scene: 
+  scene: BHN-Shine
 --- !u!114 &1984385650
 MonoBehaviour:
   m_ObjectHideFlags: 0

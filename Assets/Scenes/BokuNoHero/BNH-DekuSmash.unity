@@ -757,6 +757,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 160043241}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &160043243 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5237894456179046337, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+    type: 3}
+  m_PrefabInstance: {fileID: 160043241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 285282d59599f1342bcf143fbb779449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &176620162
 GameObject:
   m_ObjectHideFlags: 0
@@ -3214,13 +3226,24 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 794048093}
+      objectReference: {fileID: 160043243}
     - target: {fileID: 114193058678841790, guid: be3f9f6af60a7f14b9913b4859d1ec2b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Main
+      value: ChangeScene
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114193058678841790, guid: be3f9f6af60a7f14b9913b4859d1ec2b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114193058678841790, guid: be3f9f6af60a7f14b9913b4859d1ec2b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: BokuNoHero
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7634333351455769514, guid: be3f9f6af60a7f14b9913b4859d1ec2b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: be3f9f6af60a7f14b9913b4859d1ec2b, type: 3}
 --- !u!224 &794048092 stripped
 RectTransform:
@@ -3228,18 +3251,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 794048091}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &794048093 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7634333351455769514, guid: be3f9f6af60a7f14b9913b4859d1ec2b,
-    type: 3}
-  m_PrefabInstance: {fileID: 794048091}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9060048bf4049484fb13eed2a68a7ea7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &926530634
 GameObject:
   m_ObjectHideFlags: 0

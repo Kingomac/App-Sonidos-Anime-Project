@@ -24,6 +24,12 @@ EditorBuildSettings:
     path: Assets/Scenes/BokuNoHero/BNH-DekuSmash.unity
     guid: 01bb579686558ca4ea539ba3613287c2
   - enabled: 1
+    path: Assets/Scenes/BokuNoHero/BNH-Deku.unity
+    guid: 2de0b6548357bc347add15a82b780dac
+  - enabled: 1
+    path: Assets/Scenes/BokuNoHero/BNH-AllMight.unity
+    guid: 7008b57ea608b0b47ab9e7b63b415a08
+  - enabled: 1
     path: Assets/Scenes/BlackClover.unity
     guid: 9d05fd71c552241428f69056d669b34b
   - enabled: 1
