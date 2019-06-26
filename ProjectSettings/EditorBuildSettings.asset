@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: c4cbc6baa8223c64f84880a64c45d034
   - enabled: 1
-    path: Assets/Scenes/OnePiece.unity
+    path: Assets/Scenes/One Piece/OnePiece.unity
     guid: 5323011c9e1ba304b81e6a7f4cbdb06d
   - enabled: 1
     path: Assets/Scenes/Konosuba/Konosuba.unity
     guid: f4b4f57078ba7504e962862e1afa60c1
+  - enabled: 1
+    path: Assets/Scenes/Konosuba/KS-Explotion.unity
+    guid: 95e16929cb006044d825e95499aaf5c7
   - enabled: 1
     path: Assets/Scenes/EromangaSensei/EromangaSensei.unity
     guid: 7449fa93828d9e941b13a13682783885
