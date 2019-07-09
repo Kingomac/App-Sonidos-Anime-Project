@@ -771,7 +771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pantalla: {fileID: 420215447}
-  tiempoMantenerPulsado: 2.03
+  tiempoMantenerPulsado: 1.15
   animeNum: 3
 --- !u!114 &502174911
 MonoBehaviour:
@@ -1160,7 +1160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pantalla: {fileID: 420215447}
-  tiempoMantenerPulsado: 2.03
+  tiempoMantenerPulsado: 1.15
   animeNum: 2
 --- !u!114 &987822112
 MonoBehaviour:
@@ -1585,7 +1585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pantalla: {fileID: 420215447}
-  tiempoMantenerPulsado: 2.03
+  tiempoMantenerPulsado: 1.15
   animeNum: 1
 --- !u!114 &1230444573
 MonoBehaviour:
@@ -1988,7 +1988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pantalla: {fileID: 420215447}
-  tiempoMantenerPulsado: 2.03
+  tiempoMantenerPulsado: 1.15
   animeNum: 4
 --- !u!114 &1751475033
 MonoBehaviour:
@@ -2150,7 +2150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pantalla: {fileID: 420215447}
-  tiempoMantenerPulsado: 2.03
+  tiempoMantenerPulsado: 1.15
   animeNum: 5
 --- !u!114 &1931828441
 MonoBehaviour:
@@ -2435,7 +2435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pantalla: {fileID: 420215447}
-  tiempoMantenerPulsado: 2.03
+  tiempoMantenerPulsado: 1.15
   animeNum: 0
 --- !u!114 &2056732818
 MonoBehaviour:

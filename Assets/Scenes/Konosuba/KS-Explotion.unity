@@ -602,7 +602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/konosuba/explosion/explosion1.mp3
 --- !u!114 &199819745
 MonoBehaviour:
@@ -850,7 +850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/konosuba/explosion/explosion3.mp3
 --- !u!114 &349346962
 MonoBehaviour:
@@ -1011,7 +1011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/konosuba/explosion/explosion9.mp3
 --- !u!114 &382128079
 MonoBehaviour:
@@ -1172,7 +1172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/konosuba/explosion/explosion12.mp3
 --- !u!114 &404399154
 MonoBehaviour:
@@ -1830,7 +1830,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/konosuba/explosion/explosion7.mp3
 --- !u!114 &874015119
 MonoBehaviour:
@@ -2070,7 +2070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/konosuba/explosion/explosion5.mp3
 --- !u!114 &1104886172
 MonoBehaviour:
@@ -2436,7 +2436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/konosuba/explosion/explosion6.mp3
 --- !u!114 &1237346191
 MonoBehaviour:
@@ -2900,7 +2900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/konosuba/explosion/explosion11.mp3
 --- !u!114 &1452600035
 MonoBehaviour:
@@ -3215,7 +3215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/konosuba/explosion/explosion4.mp3
 --- !u!114 &1741203575
 MonoBehaviour:
@@ -3376,7 +3376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/konosuba/explosion/explosion13.mp3
 --- !u!114 &1834757682
 MonoBehaviour:
@@ -3537,7 +3537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/konosuba/explosion/explosion2.mp3
 --- !u!114 &1878325926
 MonoBehaviour:
@@ -3698,7 +3698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/konosuba/explosion/explosion8.mp3
 --- !u!114 &1918156044
 MonoBehaviour:
@@ -4200,7 +4200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/konosuba/explosion/explosion10.mp3
 --- !u!114 &2086227038
 MonoBehaviour:

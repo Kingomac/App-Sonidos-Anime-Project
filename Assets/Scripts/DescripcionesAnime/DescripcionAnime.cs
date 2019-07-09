@@ -28,13 +28,7 @@ public class DescripcionAnime : MonoBehaviour {
     }
     private void UpdateHeight(int num)
     {
-        switch (num)
-        {
-            case 5: _sinopsis.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 7514.5f);
-                break;
-            default: _sinopsis.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 545.79f);
-                break;
-        }
+        _sinopsis.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 545.79f);
     }
     public void Mostrar()
     {

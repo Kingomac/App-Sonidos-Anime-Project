@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/eromanga-sensei/baka/5.mp3
 --- !u!114 &150998155
 MonoBehaviour:
@@ -614,7 +614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/eromanga-sensei/baka/6.mp3
 --- !u!114 &172215934
 MonoBehaviour:
@@ -775,7 +775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/eromanga-sensei/baka/0.mp3
 --- !u!114 &193394035
 MonoBehaviour:
@@ -1081,7 +1081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/eromanga-sensei/baka/8.mp3
 --- !u!114 &213760111
 MonoBehaviour:
@@ -1447,7 +1447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/eromanga-sensei/baka/11.mp3
 --- !u!114 &352735200
 MonoBehaviour:
@@ -1687,7 +1687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/eromanga-sensei/baka/9.mp3
 --- !u!114 &436301038
 MonoBehaviour:
@@ -1927,7 +1927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/eromanga-sensei/baka/13.mp3
 --- !u!114 &665218316
 MonoBehaviour:
@@ -2177,7 +2177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/eromanga-sensei/baka/1.mp3
 --- !u!114 &869761419
 MonoBehaviour:
@@ -2404,7 +2404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/eromanga-sensei/baka/3.mp3
 --- !u!114 &988854363
 MonoBehaviour:
@@ -2565,7 +2565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/eromanga-sensei/baka/14.mp3
 --- !u!114 &1049759796
 MonoBehaviour:
@@ -2884,7 +2884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/eromanga-sensei/baka/12.mp3
 --- !u!114 &1330035949
 MonoBehaviour:
@@ -3045,7 +3045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/eromanga-sensei/baka/2.mp3
 --- !u!114 &1437600104
 MonoBehaviour:
@@ -4268,7 +4268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/eromanga-sensei/baka/10.mp3
 --- !u!114 &1806335116
 MonoBehaviour:
@@ -4429,7 +4429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/eromanga-sensei/baka/4.mp3
 --- !u!114 &1845965635
 MonoBehaviour:
@@ -4669,7 +4669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/eromanga-sensei/baka/7.mp3
 --- !u!114 &1920979407
 MonoBehaviour:

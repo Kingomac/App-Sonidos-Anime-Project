@@ -309,7 +309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/17.mp3
 --- !u!114 &17603231
 MonoBehaviour:
@@ -865,7 +865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/24.mp3
 --- !u!114 &157017211
 MonoBehaviour:
@@ -1026,7 +1026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/10.mp3
 --- !u!114 &164011707
 MonoBehaviour:
@@ -1187,7 +1187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/23.mp3
 --- !u!114 &174691591
 MonoBehaviour:
@@ -1348,7 +1348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/0.mp3
 --- !u!114 &191327153
 MonoBehaviour:
@@ -1509,7 +1509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/6.mp3
 --- !u!114 &197534468
 MonoBehaviour:
@@ -1950,7 +1950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/11.mp3
 --- !u!114 &291764856
 MonoBehaviour:
@@ -2111,7 +2111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/29.mp3
 --- !u!114 &301213472
 MonoBehaviour:
@@ -2351,7 +2351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/8.mp3
 --- !u!114 &323872763
 MonoBehaviour:
@@ -2749,7 +2749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/39.mp3
 --- !u!114 &375463053
 MonoBehaviour:
@@ -3068,7 +3068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/20.mp3
 --- !u!114 &409441941
 MonoBehaviour:
@@ -3229,7 +3229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/37.mp3
 --- !u!114 &433539159
 MonoBehaviour:
@@ -3390,7 +3390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/35.mp3
 --- !u!114 &499224554
 MonoBehaviour:
@@ -3634,7 +3634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/4.mp3
 --- !u!114 &517934768
 MonoBehaviour:
@@ -3795,7 +3795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/1.mp3
 --- !u!114 &526151697
 MonoBehaviour:
@@ -4267,7 +4267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/19.mp3
 --- !u!114 &629451402
 MonoBehaviour:
@@ -4428,7 +4428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/2.mp3
 --- !u!114 &632973501
 MonoBehaviour:
@@ -4589,7 +4589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/3.mp3
 --- !u!114 &675686022
 MonoBehaviour:
@@ -4933,7 +4933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/26.mp3
 --- !u!114 &697475914
 MonoBehaviour:
@@ -5094,7 +5094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/32.mp3
 --- !u!114 &726188908
 MonoBehaviour:
@@ -5409,7 +5409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/14.mp3
 --- !u!114 &819199870
 MonoBehaviour:
@@ -5649,7 +5649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/33.mp3
 --- !u!114 &881036630
 MonoBehaviour:
@@ -6126,7 +6126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/30.mp3
 --- !u!114 &949462296
 MonoBehaviour:
@@ -6287,7 +6287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/41.mp3
 --- !u!114 &966379153
 MonoBehaviour:
@@ -6566,7 +6566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/36.mp3
 --- !u!114 &1010569159
 MonoBehaviour:
@@ -6885,7 +6885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/28.mp3
 --- !u!114 &1062949078
 MonoBehaviour:
@@ -7046,7 +7046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/34.mp3
 --- !u!114 &1079676647
 MonoBehaviour:
@@ -7207,7 +7207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/16.mp3
 --- !u!114 &1098107606
 MonoBehaviour:
@@ -7447,7 +7447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/9.mp3
 --- !u!114 &1198698705
 MonoBehaviour:
@@ -7674,7 +7674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/40.mp3
 --- !u!114 &1220126546
 MonoBehaviour:
@@ -7926,7 +7926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/38.mp3
 --- !u!114 &1302138846
 MonoBehaviour:
@@ -8166,7 +8166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/27.mp3
 --- !u!114 &1382621322
 MonoBehaviour:
@@ -8327,7 +8327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/43.mp3
 --- !u!114 &1390761724
 MonoBehaviour:
@@ -8488,7 +8488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/5.mp3
 --- !u!114 &1428755476
 MonoBehaviour:
@@ -8649,7 +8649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/18.mp3
 --- !u!114 &1431230073
 MonoBehaviour:
@@ -8810,7 +8810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/31.mp3
 --- !u!114 &1446166704
 MonoBehaviour:
@@ -9129,7 +9129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/13.mp3
 --- !u!114 &1494321517
 MonoBehaviour:
@@ -9328,6 +9328,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneChange
       objectReference: {fileID: 0}
+    - target: {fileID: 5237894457432397919, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237894457432397919, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.003921569
+      objectReference: {fileID: 0}
     - target: {fileID: 5237894456179046336, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9417,16 +9427,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 1082.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237894457432397919, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237894457432397919, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 0.003921569
       objectReference: {fileID: 0}
     - target: {fileID: 5237894457432397905, guid: 89b0881ddcbc5d24e966a9d6b52514f9,
         type: 3}
@@ -9889,7 +9889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/25.mp3
 --- !u!114 &1667447185
 MonoBehaviour:
@@ -10208,7 +10208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/42.mp3
 --- !u!114 &1838086256
 MonoBehaviour:
@@ -10685,7 +10685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/12.mp3
 --- !u!114 &1905868480
 MonoBehaviour:
@@ -10846,7 +10846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/22.mp3
 --- !u!114 &1937013615
 MonoBehaviour:
@@ -11086,7 +11086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/15.mp3
 --- !u!114 &1956643626
 MonoBehaviour:
@@ -11247,7 +11247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/21.mp3
 --- !u!114 &2054619032
 MonoBehaviour:
@@ -11566,7 +11566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/onepiece/luffy/7.mp3
 --- !u!114 &2093836827
 MonoBehaviour:

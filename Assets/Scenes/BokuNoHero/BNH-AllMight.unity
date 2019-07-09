@@ -361,7 +361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/bokunohero/allmightsmash/texas%20smash.mp3
 --- !u!114 &278430223
 MonoBehaviour:
@@ -789,7 +789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/bokunohero/allmightsmash/oklahoma%20smash.mp3
 --- !u!114 &483894834
 MonoBehaviour:
@@ -950,7 +950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/bokunohero/allmightsmash/new%20hampshire%20smash.mp3
 --- !u!114 &662486610
 MonoBehaviour:
@@ -1111,7 +1111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/bokunohero/allmightsmash/united%20states%20of%20smash.mp3
 --- !u!114 &698285907
 MonoBehaviour:
@@ -1828,7 +1828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/bokunohero/allmightsmash/smash.mp3
 --- !u!114 &1630170012
 MonoBehaviour:
@@ -2157,7 +2157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/bokunohero/allmightsmash/detroit%20smash%202.mp3
 --- !u!114 &1748077350
 MonoBehaviour:
@@ -2324,7 +2324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/bokunohero/allmightsmash/detroit%20smash.mp3
 --- !u!114 &1812099657
 MonoBehaviour:
@@ -2681,11 +2681,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 7634333351455769514, guid: be3f9f6af60a7f14b9913b4859d1ec2b,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 114193058678841790, guid: be3f9f6af60a7f14b9913b4859d1ec2b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2715,6 +2710,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634333351455769514, guid: be3f9f6af60a7f14b9913b4859d1ec2b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7634333351455769514, guid: be3f9f6af60a7f14b9913b4859d1ec2b, type: 3}
@@ -3002,7 +3002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/bokunohero/allmightsmash/carolina%20smash.mp3
 --- !u!114 &2029371248
 MonoBehaviour:
@@ -3242,7 +3242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/bokunohero/allmightsmash/texas%20smash2.mp3
 --- !u!114 &2057872045
 MonoBehaviour:
@@ -3477,7 +3477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/bokunohero/allmightsmash/misourismash.mp3
 --- !u!114 &2098503734
 MonoBehaviour:

@@ -1867,7 +1867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86262609a7334064c8a12bdcd0a49807, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoClick: 1.75
+  tiempoClick: 1.15
   scene: BNH-Deku
 --- !u!114 &1825457943
 MonoBehaviour:

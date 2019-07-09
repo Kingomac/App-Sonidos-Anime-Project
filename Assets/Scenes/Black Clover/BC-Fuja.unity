@@ -897,7 +897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/blackclover/baha/baha2.mp3
 --- !u!114 &1193638213
 MonoBehaviour:
@@ -1058,7 +1058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/blackclover/baha/baha5.mp3
 --- !u!114 &1250320500
 MonoBehaviour:
@@ -1380,7 +1380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/blackclover/baha/baha4.mp3
 --- !u!114 &1371312898
 MonoBehaviour:
@@ -1797,7 +1797,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/blackclover/baha/baha6.mp3
 --- !u!114 &1678336946
 MonoBehaviour:
@@ -2116,7 +2116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/blackclover/baha/baha2.mp3
 --- !u!114 &1942617119
 MonoBehaviour:
@@ -2277,7 +2277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84860bc929f00d946a461a4c7a850300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEspera: 1.5
+  tiempoEspera: 1.15
   link: https://raw.githubusercontent.com/Kingomac/AppSonidosAnime/master/sounds/blackclover/baha/baha1.mp3
 --- !u!114 &2047791450
 MonoBehaviour:
